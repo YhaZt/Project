@@ -1,0 +1,1157 @@
+CRITICAL - 2022-04-13 00:16:51 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-04-13 00:19:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:48 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:48 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:55 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:55 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:56 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:57 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:57 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:19:57 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:28 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:47 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:20:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:23 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:23 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:23 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:24 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:21:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:25 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:26 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:22:27 --> Column 'FirstName' cannot be null
+CRITICAL - 2022-04-13 00:23:21 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:24:47 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:25:52 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:03 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:03 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:04 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:07 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:08 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:32 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:33 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:34 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:34 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:53 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:53 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:26:54 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:34 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:35 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:35 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:35 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:36 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:36 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:27:36 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:28:02 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:28:27 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:28:43 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-04-13 00:29:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:08 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:08 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:08 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:09 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:10 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:36 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:36 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:36 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:37 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:38 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:38 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:38 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:39 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:29:45 --> Column 'FirstName' cannot be null
+CRITICAL - 2022-04-13 00:31:34 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:31:36 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:32:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:00 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:01 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:33:31 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:40 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:41 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:42 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:43 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:44 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:45 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:46 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:50 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:51 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:52 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:53 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:54 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:36:59 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:03 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:04 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:05 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:05 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:05 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:05 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:06 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:07 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:08 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:13 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+ERROR - 2022-04-13 00:40:14 --> Column 'FirstName' cannot be null
+CRITICAL - 2022-04-13 00:41:08 --> Invalid argument supplied for foreach()
+#0 C:\Users\carpel\Desktop\Project\app\Views\clientlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\carpel...', 27, Array)
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#2 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('clientlist', Array, true)
+#4 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(16): view('clientlist', Array)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->list()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#10 {main}
+CRITICAL - 2022-04-13 00:41:37 --> Invalid argument supplied for foreach()
+#0 C:\Users\carpel\Desktop\Project\app\Views\clientlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\carpel...', 27, Array)
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#2 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('clientlist', Array, true)
+#4 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(16): view('clientlist', Array)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->list()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#10 {main}
+CRITICAL - 2022-04-13 00:48:56 --> syntax error, unexpected 'etMethod' (T_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:50:22 --> syntax error, unexpected '=', expecting ']'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:50:28 --> syntax error, unexpected '=', expecting ']'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:50:34 --> syntax error, unexpected '=', expecting ']'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 00:51:00 --> syntax error, unexpected '=', expecting ']'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-13 01:07:42 --> Call to a member function update() on null
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->update()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 01:08:02 --> Call to a member function update() on null
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->update()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 01:16:21 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('clientadd', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(42): view('clientadd')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->addclient()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 01:18:55 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('clientadd', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(42): view('clientadd')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->addclient()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 01:55:09 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 01:55:23 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 01:56:13 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 02:06:04 --> Class 'App\Models\Imageupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:07:06 --> Class 'App\Models\Fileupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:12:23 --> Class 'App\Models\Fileupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:26:20 --> Class 'App\Models\Fileupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:26:36 --> Class 'App\Models\Fileupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:29:47 --> Class 'App\Models\Fileupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:30:21 --> Class 'App\Models\Fileupload' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-13 02:31:19 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 02:32:14 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 02:32:19 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->FileUploadStore()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-13 02:57:37 --> Invalid file: image-table.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('image-table.php')
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(424): CodeIgniter\View\View->render('image-table', NULL, true)
+#2 C:\Users\carpel\Desktop\Project\app\Views\upload-view.php(25): CodeIgniter\View\View->include('image-table')
+#3 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#4 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('upload-view', Array, true)
+#6 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(12): view('upload-view')
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->dropzone()
+#8 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#12 {main}
+CRITICAL - 2022-04-13 02:57:39 --> Invalid file: image-table.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('image-table.php')
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(424): CodeIgniter\View\View->render('image-table', NULL, true)
+#2 C:\Users\carpel\Desktop\Project\app\Views\upload-view.php(25): CodeIgniter\View\View->include('image-table')
+#3 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#4 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('upload-view', Array, true)
+#6 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(12): view('upload-view')
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->dropzone()
+#8 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#12 {main}
+CRITICAL - 2022-04-13 02:58:01 --> Invalid file: image-table.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('image-table.php')
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(424): CodeIgniter\View\View->render('image-table', NULL, true)
+#2 C:\Users\carpel\Desktop\Project\app\Views\upload-view.php(25): CodeIgniter\View\View->include('image-table')
+#3 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#4 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('upload-view', Array, true)
+#6 C:\Users\carpel\Desktop\Project\app\Controllers\FileUploadController.php(12): view('upload-view')
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\FileUploadController->dropzone()
+#8 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileUploadController))
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#12 {main}
+CRITICAL - 2022-04-13 03:11:00 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-13 03:11:48 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-13 03:12:23 --> Invalid file: image-upload.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('image-upload.ph...')
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(424): CodeIgniter\View\View->render('image-upload', NULL, true)
+#2 C:\Users\carpel\Desktop\Project\app\Views\upload-table.php(68): CodeIgniter\View\View->include('image-upload')
+#3 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#4 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('upload-table', Array, true)
+#6 C:\Users\carpel\Desktop\Project\app\Controllers\UploadDatatableController.php(12): view('upload-table', Array)
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UploadDatatableController->index()
+#8 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadDatatableController))
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#12 {main}
+CRITICAL - 2022-04-13 03:30:53 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}

@@ -1,0 +1,196 @@
+ERROR - 2022-05-09 09:00:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-09 09:00:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\carpel\Desktop\Project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\carpel\Desktop\Project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\carpel\Desktop\Project\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\carpel\Desktop\Project\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\carpel\Desktop\Project\app\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+#5 C:\Users\carpel\Desktop\Project\system\Validation\Validation.php(292): App\Validation\Userrules->validateUser('123456789', 'email,password', Array, NULL)
+#6 C:\Users\carpel\Desktop\Project\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', '123456789', Array, Array)
+#7 C:\Users\carpel\Desktop\Project\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#10 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#14 {main}
+ERROR - 2022-05-09 09:00:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-09 09:00:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\carpel\Desktop\Project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\carpel\Desktop\Project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\carpel\Desktop\Project\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\carpel\Desktop\Project\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\carpel\Desktop\Project\app\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+#5 C:\Users\carpel\Desktop\Project\system\Validation\Validation.php(292): App\Validation\Userrules->validateUser('123456789', 'email,password', Array, NULL)
+#6 C:\Users\carpel\Desktop\Project\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', '123456789', Array, Array)
+#7 C:\Users\carpel\Desktop\Project\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#10 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#14 {main}
+ERROR - 2022-05-09 09:00:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-09 09:00:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\carpel\Desktop\Project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\carpel\Desktop\Project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\carpel\Desktop\Project\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\carpel\Desktop\Project\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\carpel\Desktop\Project\app\Validation\Userrules.php(12): CodeIgniter\BaseModel->first()
+#5 C:\Users\carpel\Desktop\Project\system\Validation\Validation.php(292): App\Validation\Userrules->validateUser('password', 'email,password', Array, NULL)
+#6 C:\Users\carpel\Desktop\Project\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'password', Array, Array)
+#7 C:\Users\carpel\Desktop\Project\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(28): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#10 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#14 {main}
+ERROR - 2022-05-09 09:14:24 --> Unknown column 'sales' in 'field list'
+CRITICAL - 2022-05-09 09:14:24 --> Call to a member function getResult() on bool
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-05-09 09:17:51 --> Invalid file: index.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(33): view('index', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-09 09:17:52 --> Invalid file: index.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(33): view('index', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-09 09:20:54 --> Invalid file: index.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(33): view('index', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-09 09:21:05 --> Invalid file: index.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(33): view('index', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-09 09:22:22 --> Invalid file: index.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(33): view('index', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-09 09:22:28 --> Invalid argument supplied for foreach()
+#0 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\carpel...', 25, Array)
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#6 {main}
+CRITICAL - 2022-05-09 09:22:38 --> Invalid argument supplied for foreach()
+#0 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\carpel...', 25, Array)
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#6 {main}
+CRITICAL - 2022-05-09 09:22:49 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-05-09 09:35:53 --> Unknown column 's' in 'order clause'
+CRITICAL - 2022-05-09 09:35:53 --> Call to a member function getResult() on bool
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+ERROR - 2022-05-09 09:35:53 --> Unknown column 's' in 'order clause'
+CRITICAL - 2022-05-09 09:35:53 --> Call to a member function getResult() on bool
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-05-09 09:35:57 --> syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-05-09 09:52:05 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project.client.town' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-05-09 09:52:05 --> Call to a member function getResult() on bool
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+ERROR - 2022-05-09 09:52:07 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project.client.town' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-05-09 09:52:07 --> Call to a member function getResult() on bool
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+ERROR - 2022-05-09 10:12:23 --> Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'project.client.Age' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-05-09 10:12:23 --> Call to a member function getResult() on bool
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}

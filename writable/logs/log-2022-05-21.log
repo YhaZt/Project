@@ -1,0 +1,385 @@
+CRITICAL - 2022-05-21 03:14:20 --> Invalid file: account/forgetpass.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/forgetp...')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('account/forgetp...', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(88): view('account/forgetp...')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->forgetpass()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 03:15:46 --> Invalid file: account/forgetpass.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('account/forgetp...')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('account/forgetp...', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(88): view('account/forgetp...')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->forgetpass()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 03:29:16 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 03:29:26 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 05:00:19 --> Call to a member function setFlashdata() on null
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-05-21 05:00:20 --> Call to a member function setFlashdata() on null
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-05-21 05:00:22 --> Call to a member function setFlashdata() on null
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-05-21 05:00:26 --> Call to a member function setFlashdata() on null
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-05-21 08:04:27 --> Call to a member function setSubject() on string
+#0 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(66): App\Controllers\UserController->sendMail('carpelbalmes@gm...', 'Password reset', 'Hi  testing!<br...')
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->reset()
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#6 {main}
+CRITICAL - 2022-05-21 08:04:33 --> Call to a member function setSubject() on string
+#0 C:\Users\carpel\Desktop\Project\app\Controllers\UserController.php(66): App\Controllers\UserController->sendMail('carpelbalmes@gm...', 'Password reset', 'Hi  testing!<br...')
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\UserController->reset()
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#6 {main}
+CRITICAL - 2022-05-21 23:28:53 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(43): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->Register()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+ERROR - 2022-05-21 23:33:56 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-05-21 23:37:54 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 23:37:56 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 23:38:25 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 23:39:46 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-05-21 23:40:54 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:587 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+CRITICAL - 2022-05-21 23:42:36 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:43:14 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:43:28 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:44:39 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:45:20 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:47:36 --> syntax error, unexpected ''SignupController/verify'' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 23:47:42 --> syntax error, unexpected ''SignupController/verify'' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-21 23:48:02 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:48:04 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:49:05 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:50:16 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:50:25 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:51:41 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:52:04 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:52:12 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:52:40 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:53:00 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:54:01 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:54:03 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:54:45 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->stores()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:55:20 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(94): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:57:06 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(82): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:58:27 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(87): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-21 23:59:25 --> Invalid file: signup.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('signup', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(86): view('signup', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}

@@ -1,0 +1,196 @@
+CRITICAL - 2022-03-29 22:18:38 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 22:18:47 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 22:33:23 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\carpel\Desktop\Project\app\Controllers\Home.php on line 17
+#0 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(17): view('uni', NULL)
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->UNI()
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#6 {main}
+CRITICAL - 2022-03-29 22:39:09 --> Class 'App\Model\UserModel' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->UNI()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-03-29 23:16:01 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:22:27 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:24:02 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:29:54 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(20): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->test()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:30:57 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(20): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->test()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:30:57 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(20): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->test()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:32:16 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:32:51 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:32:59 --> syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:39:26 --> syntax error, unexpected '<', expecting end of file
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(26): spl_autoload_call('App\\Models\\User...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-03-29 23:41:34 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:43:12 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:43:18 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:44:22 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:44:56 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:45:12 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:45:39 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:49:57 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:50:03 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:51:53 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:53:42 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:53:43 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:53:47 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:53:53 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:54:06 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:56:35 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:56:39 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:58:07 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-29 23:58:48 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

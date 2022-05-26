@@ -1,0 +1,77 @@
+CRITICAL - 2022-05-04 01:27:00 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\Users\\carpel...', 88, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(88): mkdir('Client Files/ ', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-04 01:53:33 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-04 01:53:54 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-04 01:55:04 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-04 02:00:15 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-04 02:02:35 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+ERROR - 2022-05-04 09:37:07 --> Column 'Birthday' cannot be null
+CRITICAL - 2022-05-04 09:49:09 --> Illegal string offset 'MiddleName'
+#0 C:\Users\carpel\Desktop\Project\app\Views\client\clientlist.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\carpel...', 76, Array)
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#2 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('client/clientli...', Array, true)
+#4 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(29): view('client/clientli...', Array)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->list()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#10 {main}
+CRITICAL - 2022-05-04 09:50:23 --> syntax error, unexpected ',', expecting ']'
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('client/clientli...', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(29): view('client/clientli...', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->list()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}

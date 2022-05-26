@@ -1,0 +1,60 @@
+<?php
+
+	namespace App\Controllers;
+
+use App\Controllers\BaseController;
+use App\Models\FileUploadModel;
+use App\Models\ClientModel;
+
+class FileUploadController extends BaseController
+{
+	public function dropzone()
+    {
+        $file = new FileUploadModel();
+        $data =[
+          'client_files' => $file->findAll()
+        ];
+
+        return view('upload-view', $data);
+	}
+
+	public function FileUploadStore()
+    {
+        $image = $this->request->getFile('file');
+				$id = $this->request->getVar('id');
+        $imageName = $image->getName();
+				$path = 'ClientFiles/'.$id.'/';
+				$directory = $path;
+if (file_exists($directory) && is_dir($directory))
+{
+  echo "Sure, exists and is dir";
+}else{
+  echo "Not exists. Creating...";
+  mkdir($directory, 0777, true);
+}
+        $image->move('ClientFiles/'.$id.'/', $imageName);
+
+		$imageUpload = new FileuploadModel();
+
+		$data = [
+			"clientID" => $id,
+			"files" => $directory . $imageName
+		];
+
+		$imageUpload->insert($data);
+
+        return json_encode(array(
+			"status" => 1,
+			"files" => $imageName
+
+		));
+
+    }
+    public function index(){
+          $userModel = new FileUploadModel();
+          $data['client_files'] = $userModel->orderBy('id', 'DESC')->findAll();
+
+          return view('upload-table', $data);
+
+      }
+}

@@ -1,0 +1,8 @@
+CRITICAL - 2022-05-26 00:16:29 --> syntax error, unexpected ','
+#0 C:\Users\carpel\Desktop\Project\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RequestControll...')
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RequestControll...')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#6 {main}

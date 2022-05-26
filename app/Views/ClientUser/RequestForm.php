@@ -1,0 +1,103 @@
+<?= $this->include('ClientUser/include/top') ?>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+  <!-- Preloader -->
+
+  <?= $this->include('ClientUser/include/nav')?>
+  <?= $this->include('ClientUser/include/sidebar')?>
+
+
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+
+            <h1>
+              <?= $request ?></h1>
+            <h5>
+              <?php
+                $Medical = "Indigency of patient<br>Birth Certificate<br>Hospital Bill";
+                $Laboratory = "Indigency of patient<br>Birth Certificate<br>Laboratory Test";
+                $Medicine = "Indigency of patient<br>Birth Certificate<br>Reseta";
+                $Funeral = "Indigency of patient<br>Birth Certificate<br>Funeral Contract";
+                $Transportation = "Indigency of Client<br>Birth Certificate <br>";
+
+              if($request == 'Medical'){
+                echo "<br><br>Recuirements: <br><br>" . $Medical;
+              }elseif ($request == 'Laboratory') {
+                  echo "<br><br>Recuirements:<br><br>" . $Laboratory;
+                }elseif ($request == 'Medicine') {
+                  echo "<br><br>Recuirements:<br><br>" . $Medicine;
+                }elseif ($request == 'Funeral') {
+                  echo "<br><br>Recuirements:<br><br>" . $Funeral;
+                }elseif ($request == 'Transportation') {
+                  echo "<br><br>Recuirements:<br><br>" . $Transportation;
+                }
+
+               ?>
+
+            </h5>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="client">Home</a></li>
+              <li class="breadcrumb-item active">Request Page</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<br><br>
+
+    <div  style="margin-right:20px;"class="container section">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3 class="text-center">Upload Client File Here</h3>
+                <form action="<?= base_url('drop') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
+                  <input type="hidden" name="name" value="<?=$name?>">
+                  <input type="hidden" name="request" value="<?=$request?>">
+                    <div>
+                        <h3 class="text-center">Upload Multiple File By Click On Box</h3>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div>
+  <div>
+
+
+    </body>
+    <script type="text/javascript">
+
+        Dropzone.options.imageUpload = {
+    maxFilesize: 10, // Mb
+      acceptedFiles: ".jpeg,.jpg,.png,.gif,.pdf,.docx",
+    init: function () {
+        // Set up any event handlers
+        this.on('complete', function () {
+            location.reload();
+        });
+    }
+  };
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+<?= $this->include('ClientUser/include/end') ?>

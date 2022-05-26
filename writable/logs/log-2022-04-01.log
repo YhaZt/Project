@@ -1,0 +1,82 @@
+CRITICAL - 2022-04-01 07:52:18 --> Class 'App\Controllers\SampleModel' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\DatatableController->index()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatatableController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-01 07:57:39 --> There is no data to insert.
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Users\carpel\Desktop\Project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Users\carpel\Desktop\Project\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\Users\carpel\Desktop\Project\app\Controllers\SignupController.php(32): CodeIgniter\BaseModel->save(Array)
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-04-01 07:59:18 --> Class 'App\Controllers\SampleModel' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SignupController->store()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+ERROR - 2022-04-01 08:00:07 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-04-01 08:00:07 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\carpel\Desktop\Project\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\SigninController.php(21): CodeIgniter\BaseModel->first()
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-04-01 08:00:37 --> Class 'App\Controllers\UserModel' not found
+#0 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#5 {main}
+CRITICAL - 2022-04-01 08:33:16 --> Invalid file: data.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(13): view('data')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-01 08:34:47 --> Invalid file: data.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(13): view('data')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->dat()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-01 08:34:48 --> Invalid file: data.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(13): view('data')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->dat()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-04-01 08:34:48 --> Invalid file: data.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\Home.php(13): view('data')
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\Home->dat()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}

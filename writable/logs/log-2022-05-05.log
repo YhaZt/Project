@@ -1,0 +1,288 @@
+CRITICAL - 2022-05-05 09:47:19 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/ ', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+ERROR - 2022-05-05 10:40:42 --> Column 'town' cannot be null
+CRITICAL - 2022-05-05 10:51:01 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 93, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(93): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+ERROR - 2022-05-05 10:55:54 --> Column 'town' cannot be null
+CRITICAL - 2022-05-05 10:57:58 --> syntax error, unexpected ';', expecting ']'
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-05-05 10:58:33 --> Column 'town' cannot be null
+CRITICAL - 2022-05-05 11:18:18 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 11:18:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 11:18:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 11:18:20 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 11:18:20 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 11:18:53 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 11:20:16 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+ERROR - 2022-05-05 11:46:45 --> Column 'town' cannot be null
+CRITICAL - 2022-05-05 11:51:58 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 11:52:36 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 11:53:35 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 11:54:37 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+ERROR - 2022-05-05 11:55:29 --> Column 'town' cannot be null
+CRITICAL - 2022-05-05 11:59:29 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 11:59:54 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 12:02:06 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 12:03:26 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 140, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(140): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+ERROR - 2022-05-05 12:04:15 --> Column 'town' cannot be null
+CRITICAL - 2022-05-05 12:07:01 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 19:48:30 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 141, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(141): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 19:50:29 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 140, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(140): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 19:51:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 19:51:41 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\carpel...')
+#1 C:\Users\carpel\Desktop\Project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#9 {main}
+CRITICAL - 2022-05-05 19:54:10 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 145, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(145): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 19:56:14 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 145, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(145): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 19:58:25 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\Users\\carpel...', 143, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(143): mkdir('Client Files/ ', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 19:58:33 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', 'C:\\Users\\carpel...', 143, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(143): mkdir('Client Files/ ', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 20:13:56 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 143, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(143): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+CRITICAL - 2022-05-05 20:17:00 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\Users\\carpel...', 158, Array)
+#1 C:\Users\carpel\Desktop\Project\app\Controllers\ClientController.php(158): mkdir('Client Files/La...', '0777')
+#2 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ClientController->store()
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#7 {main}
+ERROR - 2022-05-05 20:17:34 --> Column 'FirstName' cannot be null

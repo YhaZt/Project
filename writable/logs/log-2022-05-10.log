@@ -1,0 +1,78 @@
+CRITICAL - 2022-05-10 09:22:00 --> Invalid file: Dashboard.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(424): CodeIgniter\View\View->render('Dashboard.php', NULL, true)
+#2 C:\Users\carpel\Desktop\Project\app\Views\FirstDistrict\home.php(11): CodeIgniter\View\View->include('Dashboard.php')
+#3 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#4 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('FirstDistrict/h...', Array, true)
+#6 C:\Users\carpel\Desktop\Project\app\Controllers\MainController.php(10): view('FirstDistrict/h...')
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\MainController->staff()
+#8 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#12 {main}
+CRITICAL - 2022-05-10 09:22:02 --> Invalid file: Dashboard.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+#1 C:\Users\carpel\Desktop\Project\system\View\View.php(424): CodeIgniter\View\View->render('Dashboard.php', NULL, true)
+#2 C:\Users\carpel\Desktop\Project\app\Views\FirstDistrict\home.php(11): CodeIgniter\View\View->include('Dashboard.php')
+#3 C:\Users\carpel\Desktop\Project\system\View\View.php(210): include('C:\\Users\\carpel...')
+#4 C:\Users\carpel\Desktop\Project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('FirstDistrict/h...', Array, true)
+#6 C:\Users\carpel\Desktop\Project\app\Controllers\MainController.php(10): view('FirstDistrict/h...')
+#7 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\MainController->staff()
+#8 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#12 {main}
+CRITICAL - 2022-05-10 23:21:21 --> Invalid file: Analytics/ColumnChart.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Analytics/Colum...')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('Analytics/Colum...', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(31): view('Analytics/Colum...', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->showGraph()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-10 23:47:14 --> Invalid file: line-chart.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('line-chart.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('line-chart', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(22): view('line-chart', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->index()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-10 23:47:16 --> Invalid file: line-chart.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('line-chart.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('line-chart', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(22): view('line-chart', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->index()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-10 23:47:16 --> Invalid file: line-chart.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('line-chart.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('line-chart', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(22): view('line-chart', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->index()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
+CRITICAL - 2022-05-10 23:47:40 --> Invalid file: columnchart.php
+#0 C:\Users\carpel\Desktop\Project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('columnchart.php')
+#1 C:\Users\carpel\Desktop\Project\system\Common.php(1089): CodeIgniter\View\View->render('columnchart', Array, true)
+#2 C:\Users\carpel\Desktop\Project\app\Controllers\ColChartController.php(22): view('columnchart', Array)
+#3 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(832): App\Controllers\ColChartController->index()
+#4 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ColChartController))
+#5 C:\Users\carpel\Desktop\Project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\carpel\Desktop\Project\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\carpel\Desktop\Project\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\carpel...')
+#8 {main}
