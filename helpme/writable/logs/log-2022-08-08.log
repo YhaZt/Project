@@ -212,3 +212,21 @@ CRITICAL - 2022-08-08 22:59:37 --> Call to a member function getResult() on bool
 #4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 {main}
+ERROR - 2022-08-08 23:56:05 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-08 23:56:05 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-08 23:56:53 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-08 23:56:53 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

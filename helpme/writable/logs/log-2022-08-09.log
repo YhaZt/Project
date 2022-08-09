@@ -1,0 +1,536 @@
+ERROR - 2022-08-09 00:00:45 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:00:45 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-09 00:00:54 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:00:54 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-09 00:02:50 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:02:50 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-09 00:17:24 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:17:24 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-09 00:32:12 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:32:12 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-09 00:33:35 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:33:35 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-09 00:34:39 --> Unknown column 'clientID' in 'where clause'
+CRITICAL - 2022-08-09 00:34:39 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->single('1')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 00:42:05 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:44:52 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:44:59 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:48:47 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:50:51 --> Class 'App\Controllers\mPDF' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:51:06 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:56:32 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->index('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:58:07 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 00:58:24 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:00:57 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:00:57 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:00:59 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:01:59 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:02:00 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:21 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:22 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:22 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:22 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:35 --> Class 'App\Controllers\Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:36 --> Class 'App\Controllers\Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:37 --> Class 'App\Controllers\Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:56 --> Class 'App\Controllers\Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:04:57 --> Class 'App\Controllers\Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:05:20 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:05:20 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:05:21 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:06:58 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:07:57 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:07:57 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:08:15 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:08:21 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:08:22 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:08:23 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:08:23 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:08:23 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:09:43 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:09:45 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:09:46 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:12:54 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:12:54 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:12:54 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\Home->isf()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:23:44 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:24:00 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:25:22 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:26:06 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:26:16 --> Call to undefined function App\Controllers\first()
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:26:21 --> Call to undefined function App\Controllers\first()
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:26:34 --> Call to undefined function App\Controllers\first()
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:27:13 --> Call to undefined function App\Controllers\first()
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:28:16 --> Call to undefined function App\Controllers\first()
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:29:15 --> Call to a member function view() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:34:57 --> Class 'Mpdf\Mpdf' not found
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:37:52 --> Call to a member function Output() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:39:53 --> Argument 2 passed to view() must be of the type array, null given, called in C:\laragon\www\Project\helpme\app\Controllers\PdfController.php on line 29
+#0 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(29): view('Letter/Guarante...', NULL)
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 01:40:56 --> syntax error, unexpected '$output' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:41:44 --> syntax error, unexpected '$output' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:41:45 --> syntax error, unexpected '$output' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:41:59 --> syntax error, unexpected '$output' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:42:19 --> Call to a member function view() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 01:42:33 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:42:40 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 01:42:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\laragon\www\Project\helpme\app\Controllers\PdfController.php on line 22
+#0 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(22): view('Letter/Guarante...', NULL)
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 01:44:42 --> Illegal string offset 'FirstName'
+#0 C:\laragon\www\Project\helpme\app\Views\Letter\GuaranteeLetter.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\Project\helpme\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('Letter/Guarante...', Array, true)
+#4 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(22): view('Letter/Guarante...', Array)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#7 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 01:45:03 --> Illegal string offset 'id'
+#0 C:\laragon\www\Project\helpme\app\Views\Letter\GuaranteeLetter.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\Project\helpme\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('Letter/Guarante...', Array, true)
+#4 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(22): view('Letter/Guarante...', Array)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('1')
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#7 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 02:40:09 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 02:40:47 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 02:41:14 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 03:04:42 --> Argument 1 passed to Mpdf\Mpdf::__construct() must be of the type array, string given, called in C:\laragon\www\Project\helpme\app\Controllers\PdfController.php on line 15
+#0 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(15): Mpdf\Mpdf->__construct('utf-8', 'A4', 0, '', 0, 0, 0, 0, 0, 'L')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->letter('2')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

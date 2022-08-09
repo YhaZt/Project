@@ -9,9 +9,16 @@ class RequestModel extends Model
     protected $table = 'request';
     protected $primaryKey = 'id';
     protected $allowedFields = [
+      'client_id',
       'client_name',
+      'email',
+      'phone_no',
       'request',
-      'client_files'
+      'client_files',
+      'amount',
+      'status',
+      'created_at',
+      'updated_at'
     ];
 
 }

@@ -1,14 +1,14 @@
-<?= $this->include('include/top') ?>
+<?= $this->include('FirstDistrict/include/top') ?>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
 <!-- Navbar -->
-<?= $this->include('include/nav') ?>
+<?= $this->include('FirstDistrict/include/nav') ?>
 <!-- /.navbar -->
 
 <!-- Main Sidebar Container -->
 
-<?= $this->include('include/sidebar') ?>
+<?= $this->include('FirstDistrict/include/sidebar') ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -98,9 +98,7 @@
  <!-- /.content-wrapper -->
 
  <!-- Control Sidebar -->
- <aside class="control-sidebar control-sidebar-dark">
- <!-- Control sidebar content goes here -->
- </aside>
+
  <!-- /.control-sidebar -->
  </div>
  <!-- ./wrapper -->
@@ -109,19 +107,38 @@
 
 
 
-   <?= $this->include('include/datatableEnd') ?>
+   <?= $this->include('FirstDistrict/include/datatableEnd') ?>
 
 
      <script type="text/javascript">
 
-      $('#test').DataTable( {
-          responsive: true,
-          dom: 'Bfrtip',
-          buttons: [
-              'copy', 'csv', 'excel', 'pdf', 'print'
-          ],
+     $('#example1').DataTable({
 
-      } );
+              "dom": 'Bfrtip',
+              "paging": true,
+              "autoWidth": true,
+              "columnDefs": [{
+                  "visible": true,
+                  "targets": -1
+              }],
+              buttons: [{
+                  extend: 'print',
+                  autoPrint: true,
+                  title: '',
+                  exportOptions: {
+                         stripHtml: false
+                     },
+                  //For repeating heading.
+                  repeatingHead: {
+                      logo: '<?=base_url()?>system_image/logo.jpg',
+                      logoPosition: 'center',
+                      logoStyle: 'center',
+                      titleStyle: 'center',
+                      title: '<br>Faculty: <?=$teacher['lastname']?>,<?=$teacher['firstname']?> <br> Acceptance average: <?=$acceptance?>'
+                  }
+              }]
+          });
      </script>
+
 </body>
 </html>

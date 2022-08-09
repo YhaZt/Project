@@ -9,12 +9,18 @@ class ClientLogModel extends Model{
     'FirstName',
     'MiddleName',
     'LastName',
+    'Birthday',
     'Age',
     'Gender',
     'MobileNumber',
     'Occupation',
-    'Address',
+    'province',
+    'town',
+    'barangay',
+    'sitio',
+    'hono',
     'Purpose',
-		'created_at'
+    'is_archive',
+    'created_at'
   ];
 }

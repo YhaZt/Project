@@ -63,6 +63,7 @@ $routes->get('clientadd', 'ClientController::store',["filter" => "auth"]);
 $routes->get('clientedit', 'ClientController::edit/$1',["filter" => "auth"]);
 $routes->get('clientlist', 'ClientController::list',["filter" => "auth"]);
 $routes->get('clientlist/(:any)', 'ClientController::single/$1',["filter" => "auth"]);
+$routes->get('letter/(:any)', 'PdfController::letter/$1',["filter" => "auth"]);
 $routes->get('archive/(:num)', 'ClientController::archive/$1',["filter" => "auth"]);
 $routes->get('unarchive/(:num)', 'ClientController::unarchive/$1',["filter" => "auth"]);
 

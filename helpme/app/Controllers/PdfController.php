@@ -2,16 +2,47 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+use CodeIgniter\Controller;
+use App\Models\ClientModel;
+use Mpdf\Mpdf;
+require_once 'vendor/autoload.php';
+
+class PdfController extends BaseController
 {
-	public function index()
+	 function letter($id = null)
 	{
 		$mpdf = new \Mpdf\Mpdf();
-		$html = view('html_to_pdf',[]);
+
+		$mpdf->SetHTMLHeader('
+<div style="text-align: center; font-weight: bold;">
+    <img src="/system_image/logo.jpg" width = "50" >
+		<h5 style="margin:0;">House of Representative</h5>
+		<h5 style="margin:0;">House of Representative</h5>
+		<h5 style="margin:0;">House of Representative</h5>
+</div>');
+$mpdf->SetHTMLFooter('
+<table width="100%">
+    <tr>
+        <td width="33%">{DATE j-m-Y}</td>
+        <td width="33%" align="center">{PAGENO}/{nbpg}</td>
+        <td width="33%" style="text-align: right;">My document</td>
+    </tr>
+</table>');
+		ini_set('memory_limit','256M');
+		$name = new ClientModel();
+		$client = $name->where('id',$id)->first();
+		$cname = $client['LastName'] . $client['FirstName'];
+		$data=[
+			'name'=> $name->where('id',$id)->first()
+		];
+		$html = view('Letter/GuaranteeLetter',$data);
 		$mpdf->WriteHTML($html);
 		$this->response->setHeader('Content-Type', 'application/pdf');
-		$mpdf->Output('arjun.pdf','I'); // opens in browser
-		//$mpdf->Output('arjun.pdf','D'); // it downloads the file into the user system, with give name
-		//return view('welcome_message');
+		$output = 'Guarantee Letter'.' '.$cname . ' ' . date('Y_m_d') . '_.pdf';
+		$mpdf->Output("$output" , 'I');
+
+
+
+
 	}
 }

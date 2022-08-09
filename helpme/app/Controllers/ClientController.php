@@ -33,9 +33,11 @@ public function single($id= null)
     'id' =>$id,
     'test' =>$client['id']
   ];
+  // echo $cname;
 
   return view('upload-view', $data);
 }
+
 public function list()
 {
     $model = new ClientModel();

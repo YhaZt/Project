@@ -14,11 +14,13 @@ class DatatableModel extends Model{
     'Gender',
     'MobileNumber',
     'Occupation',
-    'Province',
-    'Town',
-    'Barangay',
-    'Sitio',
-    'House_no',
-    'Purpose'
+    'province',
+    'town',
+    'barangay',
+    'sitio',
+    'hono',
+    'Purpose',
+    'is_archive',
+    'created_at'
   ];
 }
