@@ -1,14 +1,14 @@
-<?= $this->include('include/top') ?>
+<?= $this->include('FirstDistrict/include/top') ?>
 <!-- Navbar -->
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
 <!-- Navbar -->
-<?= $this->include('include/nav') ?>
+<?= $this->include('FirstDistrict/include/nav') ?>
 <!-- /.navbar -->
 
 <!-- Main Sidebar Container -->
 
-<?= $this->include('include/sidebar') ?>
+<?= $this->include('FirstDistrict/include/sidebar') ?>
 
 
 <?php if(session()->getFlashdata('msg')): ?>
@@ -146,4 +146,4 @@
 </div>
 
 </body>
-    <?= $this->include('include/end') ?>
+    <?= $this->include('FirstDistrict/include/end') ?>

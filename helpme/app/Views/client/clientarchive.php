@@ -1,14 +1,14 @@
-<?= $this->include('include/top') ?>
+<?= $this->include('FirstDistrict/include/top') ?>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
 <!-- Navbar -->
-<?= $this->include('include/nav') ?>
+<?= $this->include('FirstDistrict/include/nav') ?>
 <!-- /.navbar -->
 
 <!-- Main Sidebar Container -->
 
-<?= $this->include('include/sidebar') ?>
+<?= $this->include('FirstDistrict/include/sidebar') ?>
 
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -110,7 +110,7 @@
 
 
 
-   <?= $this->include('include/datatableEnd') ?>
+   <?= $this->include('FirstDistrict/include/datatableEnd') ?>
 
      <script>
      $(document).ready(function() {
