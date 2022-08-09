@@ -15,7 +15,8 @@ class LoginModel extends Model
 		"password",
 		"role",
 		"status",
-		"token"
+		"token",
+		"created_at"
 	];
 
 }
