@@ -37,7 +37,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <h3 class="card-title">DataTable Task</h3>
+              <h3 class="card-title">Client Report DataTable</h3>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -112,7 +112,7 @@
 
      <script type="text/javascript">
 
-     $('#example1').DataTable({
+     $('#test').DataTable({
 
               "dom": 'Bfrtip',
               "paging": true,
@@ -122,19 +122,19 @@
                   "targets": -1
               }],
               buttons: [{
-                  extend: 'print',
+                  extend: 'print'  ,
                   autoPrint: true,
                   title: '',
                   exportOptions: {
-                         stripHtml: false
+                  stripHtml: false
                      },
                   //For repeating heading.
                   repeatingHead: {
-                      logo: '<?=base_url()?>system_image/logo.jpg',
+                      logo: '<?=base_url()?>/system_image/logo.jpg',
                       logoPosition: 'center',
                       logoStyle: 'center',
                       titleStyle: 'center',
-                      title: '<br>Faculty: <?=$teacher['lastname']?>,<?=$teacher['firstname']?> <br> Acceptance average: <?=$acceptance?>'
+                      title:'Help Me: Tracker'
                   }
               }]
           });
