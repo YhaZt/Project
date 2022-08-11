@@ -15,7 +15,7 @@ class PdfController extends BaseController
 
 		$mpdf->SetHTMLHeader('
 <div style="text-align: center; font-weight: bold;">
-    <img src="/system_image/logo.jpg" width = "50" >
+    <img src="/system_image/logo.jpg" width = "50" />
 		<h5 style="margin:0;">House of Representative</h5>
 		<h5 style="margin:0;">House of Representative</h5>
 		<h5 style="margin:0;">House of Representative</h5>
@@ -24,8 +24,9 @@ $mpdf->SetHTMLFooter('
 <table width="100%">
     <tr>
         <td width="33%">{DATE j-m-Y}</td>
-        <td width="33%" align="center">{PAGENO}/{nbpg}</td>
-        <td width="33%" style="text-align: right;">My document</td>
+        <td width="33%" align="center">
+				    <img src="/system_image/logo.jpg" width = "30" /></td>
+        <td width="33%" style="text-align: right;">Guarantee Letter</td>
     </tr>
 </table>');
 		ini_set('memory_limit','256M');
@@ -39,8 +40,7 @@ $mpdf->SetHTMLFooter('
 		$mpdf->WriteHTML($html);
 		$this->response->setHeader('Content-Type', 'application/pdf');
 		$output = 'Guarantee Letter'.' '.$cname . ' ' . date('Y_m_d') . '_.pdf';
-		$mpdf->Output("$output" , 'I');
-
+		$mpdf->Output($output , 'I');
 
 
 

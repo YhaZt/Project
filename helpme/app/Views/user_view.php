@@ -45,6 +45,9 @@
 
 
      <table class="table table-bordered table-striped" id="test">
+
+
+
        <thead>
           <tr>
              <th>Id</th>
@@ -81,7 +84,26 @@
          <?php endforeach; ?>
          <?php endif;  ?>
        </tbody>
+<tfoot>
+  <br>
+  <tr>
+     <th>Id</th>
+    <th>Full Name</th>
+      <th>Birthday</th>
+      <th>Age</th>
+      <th>Gender</th>
+     <th>Mobile Number</th>
+     <th>Occupation</th>
+     <th>Barangay</th>
+     <th>House Number</th>
+     <th>Purpose</th>
+     <th>Date & Time</th>
+  </tr>
+</tfoot>
+
+
      </table>
+
    </div>
    <!-- /.card-body -->
  </div>
@@ -112,32 +134,111 @@
 
      <script type="text/javascript">
 
-     $('#test').DataTable({
+     // $('#test').DataTable({
+     //
+     //          "dom": 'Bfrtip',
+     //          "paging": true,
+     //          "autoWidth": true,
+     //          "columnDefs": [{
+     //              "visible": true,
+     //              "targets": -1
+     //          }],
+     //          buttons: [
+     //              {
+     //                  extend: 'print',
+     //                  autoprint: true,
+     //                  exportOptions: {
+     //                      columns: [ 0, ':visible' ]
+     //                  }
+     //              },
+     //              {
+     //                  extend: 'excelHtml5',
+     //                  exportOptions: {
+     //                      columns: [ 0, ':visible' ]
+     //                  }
+     //              },
+     //              {
+     //                  extend: 'pdfHtml5',
+     //                  exportOptions: {
+     //                      columns: [ 0, ':visible' ]
+     //
+     //                  }
+     //              },
+     //              'colvis'
+     //          ]
+     //      });
 
-              "dom": 'Bfrtip',
-              "paging": true,
-              "autoWidth": true,
-              "columnDefs": [{
-                  "visible": true,
-                  "targets": -1
-              }],
-              buttons: [{
-                  extend: 'print'  ,
-                  autoPrint: true,
-                  title: '',
-                  exportOptions: {
-                  stripHtml: false
-                     },
-                  //For repeating heading.
-                  repeatingHead: {
-                      logo: '<?=base_url()?>/system_image/logo.jpg',
-                      logoPosition: 'center',
-                      logoStyle: 'center',
-                      titleStyle: 'center',
-                      title:'Help Me: Tracker'
-                  }
-              }]
-          });
+     $(document).ready(function() {
+         var printCounter = 0;
+
+         // Append a caption to the table before the DataTables initialisation
+         // $('#test').append('<caption style="caption-side: bottom">A fictional company\'s staff table.</caption>');
+
+         $('#test').DataTable( {
+             dom: 'Bfrtip',
+             "paging": true,
+                      "autoWidth": true,
+                      "columnDefs": [{
+                          "visible": true,
+                          "targets": -1
+                      }],
+             buttons: [
+                 {
+                     extend: 'print',
+                     footer: true,
+                     autoPrint: false,
+                     // messageTop: 'The information in this table is copyright to Sirius Cybernetics Corp.',
+                     messageBottom: 'Logbook Report',
+                     exportOptions: {
+                                         columns: [ 0, ':visible' ]
+                                     }
+                 },
+                 {
+                     extend: 'pdf',
+                     messageBottom: 'Logbook Report',
+                     exportOptions: {
+                                         columns: [ 0, ':visible' ]
+                                     }
+                 },
+                 {
+                     extend: 'csv',
+                     messageBottom: 'Logbook Report',
+                     exportOptions: {
+                                         columns: [ 0, ':visible' ]
+                                     }
+                 },
+                  'colvis'
+             ]
+         } );
+     } );
+
+     // $('#example1').DataTable({
+     //
+     //            "dom": 'Bfrtip',
+     //            "paging": true,
+     //            "autoWidth": true,
+     //            "columnDefs": [{
+     //                "visible": true,
+     //                "targets": -1
+     //            }],
+     //            buttons: [{
+     //                extend: 'print',
+     //                autoPrint: true,
+     //                title: '',
+     //                exportOptions: {
+     //                       stripHtml: false
+     //                   },
+     //                //For repeating heading.
+     //                repeatingHead: {
+     //                    logo: '<?=base_url()?>/system_image/logo.jpg',
+     //                    logoPosition: 'center',
+     //                    logoStyle: 'center',
+     //                    titleStyle: 'center',
+     //                    title: '<br>Faculty: <?=$teacher['lastname']?>,<?=$teacher['firstname']?> <br> Acceptance average: <?=$acceptance?>'
+     //                }
+     //            }]
+     //        });
+
      </script>
 
 </body>
