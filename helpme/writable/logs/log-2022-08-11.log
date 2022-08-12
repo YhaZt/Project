@@ -1,0 +1,9 @@
+CRITICAL - 2022-08-11 21:03:02 --> syntax error, unexpected ',', expecting ']'
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('client/clientli...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(46): view('client/clientli...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->list()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

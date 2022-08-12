@@ -75,7 +75,11 @@
                <td><?= $user['town'] . ', ' . $user['barangay'] . ', ' . $user['sitio']; ?></td>
                <td><?= $user['hono']; ?></td>
                <td><a href = "/letter/<?=$user['id']?>"><?= $user['Purpose']; ?></td>
-               <td><a   href="../ClientController/edit/<?php echo $user['id']; ?>">Edit</a>
+               <td>
+                 <button type="button"  data-id="<?= $order['id']?>" data-orderid="<?=$transactID?>" data-qty="<?=$order['quantity']?>"  data-price="<?= $order['price'] ?>" id="cj" data-toggle="modal" data-target=".bilangin" class="ps-btn ps-btn--xs product-item-cart btn btn-success product_type_simple add_to_cart_button cj">
+                  <!-- <i class="fa fa-money-bill-wave fa-2xs"></i> -->
+                </button><br>
+                 <a   href="../ClientController/edit/<?php echo $user['id']; ?>">Edit</a>
 
                <a href="../ClientController/archive/<?php echo $user['id']; ?>" >Archive</a></td>
             </tr>
@@ -100,15 +104,110 @@
  <!-- /.content-wrapper -->
 
  <!-- Control Sidebar -->
- <aside class="control-sidebar control-sidebar-dark">
- <!-- Control sidebar content goes here -->
- </aside>
+ <div class="modal fade bilangin" tabindex="-1" role="dialog" aria-hidden="true">
+       <div class="modal-dialog modal-lg">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title">Confirm action</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                   </button>
+               </div>
+               <div class="modal-body">
+
+                   <h1>Enter Amount</h1>
+                   <input type="hidden" class="transactID" value="<?=$transactID?>">
+                   <input type="hidden" class="id">
+                   <input type="hidden" class="qty">
+                   <input type="hidden" id="pr" class="form-control psr">
+                   <input type="text" name="" value="<?=$user['id']?>">
+                   <h1><?php $name['FirstName']; ?></h1>
+                   <input type="text" id="quantity" class="form-control quantity-neto" placeholder="Quantity">
+               </div>
+               <div class="modal-footer">
+                   <button type="button" id="confirm" class="btn btn-primary confirm"data-dismiss="modal">Confirm</button>
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
  <!-- /.control-sidebar -->
  </div>
  <!-- ./wrapper -->
 
 
    <?= $this->include('FirstDistrict/include/datatableEnd') ?>
+
+   <script>
+   $(document).ready(function(){
+     $(".cj").click(function(){
+       var id = $(this).attr("data-id");
+       var qty = $(this).attr("data-qty");
+       var price = $(this).attr("data-price");
+       var status ="added";
+       $(".psr").val(price);
+       $(".id").val(id);
+       $(".qty").val(qty);
+     });
+     $("#myInput").on("keyup", function() {
+       var value = $(this).val().toLowerCase();
+       $(".dropdown-menu li").filter(function() {
+         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+       });
+     });
+   }
+   $(".cj").click(function(){
+         var id = $(this).attr("data-id");
+         var qty = $(this).attr("data-qty");
+         var user = $(this).attr("data-user");
+         var price = $(this).attr("data-price");
+         var product = $(this).attr("data-product");
+         var status ="added";
+         $(".psr").val(price);
+         $(".title-netos").text(product);
+         $(".id").val(id);
+         $(".qty").val(qty);
+         $(".user").val(user);
+       });
+       $(".confirm").click(function(){
+         // TableVar.ajax.reload();
+         var id = $(".id").val();
+         var qty =  parseInt($(".quantity-neto").val());
+         var user = $(".user").val();
+         var stkqty =  parseInt($(".qty").val());
+         var price =  parseInt($(".psr").val());
+         var status ="ORDERED";
+         var transactID = $(".transactID").val();
+         if(qty > stkqty){
+           alert('invalid quantity range input');
+         }else{
+         $.ajax({
+          url:'<?=base_url()?>/cashier/addsales',
+          method:'POST',
+          headers: {'X-Requested-With': 'XMLHttpRequest'},
+          dataType:'text',
+          data:{
+            orderID: transactID,
+            productsID: id,
+            accountID:user,
+            oquantity: qty,
+            oprice: price,
+            status:status,
+          },
+          success:function(data){
+            console.log(data);
+
+            $('#customersTable').DataTable().ajax.reload(null, false);
+            reloadData();
+            // $( ".total" ).append("<h2>" + qty + " </h2>" );
+
+          }
+        });
+
+      }
+     });
+   );
+   </script>
 
      <script>
      $(document).ready(function() {
