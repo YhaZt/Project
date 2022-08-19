@@ -76,7 +76,7 @@
                <td><?= $user['hono']; ?></td>
                <td><a href = "/letter/<?=$user['id']?>"><?= $user['Purpose']; ?></td>
                <td>
-                 <button type="button"  data-id="<?= $order['id']?>" data-orderid="<?=$transactID?>" data-qty="<?=$order['quantity']?>"  data-price="<?= $order['price'] ?>" id="cj" data-toggle="modal" data-target=".bilangin" class="ps-btn ps-btn--xs product-item-cart btn btn-success product_type_simple add_to_cart_button cj">
+                 <button type="button"  data-id="<?= $user['id']?>" data-orderid="<?=$transactID?>" data-qty="<?=$order['quantity']?>"  data-price="<?= $order['price'] ?>" id="cj" data-toggle="modal" data-target=".bilangin" class="ps-btn ps-btn--xs product-item-cart btn btn-success product_type_simple add_to_cart_button cj">
                   <!-- <i class="fa fa-money-bill-wave fa-2xs"></i> -->
                 </button><br>
                  <a   href="../ClientController/edit/<?php echo $user['id']; ?>">Edit</a>
@@ -116,12 +116,8 @@
                <div class="modal-body">
 
                    <h1>Enter Amount</h1>
-                   <input type="hidden" class="transactID" value="<?=$transactID?>">
-                   <input type="hidden" class="id">
-                   <input type="hidden" class="qty">
-                   <input type="hidden" id="pr" class="form-control psr">
-                   <input type="text" name="" value="<?=$user['id']?>">
-                   <h1><?php $name['FirstName']; ?></h1>
+                  
+<?= $user['FirstName'] .' ' . $user['MiddleName'] . ' ' . $user['LastName'] ?>
                    <input type="text" id="quantity" class="form-control quantity-neto" placeholder="Quantity">
                </div>
                <div class="modal-footer">
