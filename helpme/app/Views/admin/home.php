@@ -10,4 +10,4 @@
 
 
 
-<?= $this->include('/admin/include/end') ?>
+<?= $this->include('/admin/include/DatatableEnd') ?>
