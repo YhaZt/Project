@@ -5,11 +5,25 @@ use CodeIgniter\Controller;
 use App\Models\ClientModel;
 use App\Models\AddModel;
 use App\Models\FileUploadModel;
-
+use App\Models\AmountModel;
 
 class ClientController extends BaseController
 {
   protected $session;
+
+  public function postamount()
+  {
+    $id = $this->request->getVar('id');
+    $qty = $this->request->getVar('qty');
+    $am = new AmountModel();
+    $data = [
+      'clientID' => $id,
+      'amount'  => $qty,
+      'status'  => 'test'
+    ];
+    $am->save($data);
+        return $id;
+  }
 public function __construct()
 {
     $this->session = service('session');
@@ -41,11 +55,17 @@ public function single($id= null)
 public function list()
 {
     $model = new ClientModel();
-    $data['client_detail'] = $model->where('is_archive', 0)->orderBy('id', 'desc')->findAll();
-    $data['archive'] = $model->where('is_archive', 1)->orderBy('id', 'desc')->findAll();
+    $data = [
+      'client_detail' => $model->where('is_archive', 0)->orderBy('id', 'desc')->findAll(),
+      'archive' => $model->where('is_archive', 1)->orderBy('id', 'desc')->findAll()
+    ];
+    // echo '<pre>';
+    // print_r($data);
+    //   echo '</pre>';
     return view('client/clientlist', $data);
 
 }
+
     public function archive($id = null)
       {
           $model = new ClientModel();

@@ -66,6 +66,7 @@ $routes->get('clientlist/(:any)', 'ClientController::single/$1',["filter" => "au
 $routes->get('letter/(:any)', 'PdfController::letter/$1',["filter" => "auth"]);
 $routes->get('archive/(:num)', 'ClientController::archive/$1',["filter" => "auth"]);
 $routes->get('unarchive/(:num)', 'ClientController::unarchive/$1',["filter" => "auth"]);
+// $routes->post('/client/postamount', 'ClientController::postamount',["filter" => "auth"]);
 
 //Calendar
 // $routes->get("fullcalendar", "Fullcalendar::index");
@@ -147,7 +148,9 @@ $routes->get("image-upload", "RequestController::drop",["filter" => "auth"]);
 $routes->post("drop", "RequestController::FileStore",["filter" => "auth"]);
 $routes->get('image-table', 'RequestController::RequestTable',["filter" => "auth"]);
 
+//Utility
 
+$routes->get('sitioadd', 'UtilityController::addsitio',["filter" => "auth"]);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

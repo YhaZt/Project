@@ -9,7 +9,7 @@
   public function graph(){
   $order = new ClientModel();
   // $all = $order->findAll();
-  $all = $order->select('SUM total as total, town as town')->groupBy('total')->first();
+  $all = $order->select('Count * total as total, town as town')->groupBy('total')->first();
   echo json_encode($all);
 
 }
