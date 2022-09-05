@@ -120,7 +120,7 @@ $routes->group("staff2", ["filter" => "auth"], function ($routes) {
     $routes->get("staff2", "AccountManagement/StaffController2::index");
 });
 $routes->group("client", ["filter" => "auth"], function ($routes) {
-    $routes->get("client", "AccountManagement/StaffController2::index");
+    $routes->get("client", "AccountManagement/ClientController::index");
 });
 $routes->get('logout', 'UserController::logout');
 
@@ -147,6 +147,9 @@ $routes->get('requestform', 'RequestController::reqform');
 $routes->get("image-upload", "RequestController::drop",["filter" => "auth"]);
 $routes->post("drop", "RequestController::FileStore",["filter" => "auth"]);
 $routes->get('image-table', 'RequestController::RequestTable',["filter" => "auth"]);
+$routes->get('Feed', 'RequestController::Feed',["filter" => "auth"]);
+$routes->get('Transac', 'RequestController::Transac',["filter" => "auth"]);
+
 
 //Utility
 

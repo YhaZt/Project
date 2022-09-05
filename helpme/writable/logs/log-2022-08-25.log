@@ -168,3 +168,96 @@ CRITICAL - 2022-08-25 04:06:16 --> Call to a member function getFirstRow() on bo
 #4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 {main}
+ERROR - 2022-08-25 12:08:14 --> Unknown column 'Count' in 'field list'
+CRITICAL - 2022-08-25 12:08:14 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:08:16 --> Unknown column 'Count' in 'field list'
+CRITICAL - 2022-08-25 12:08:16 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:08:51 --> Unknown column 'Count' in 'field list'
+CRITICAL - 2022-08-25 12:08:51 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:09:08 --> Unknown column 'Count * total' in 'field list'
+CRITICAL - 2022-08-25 12:09:08 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:09:42 --> Unknown column 'Count *' in 'field list'
+CRITICAL - 2022-08-25 12:09:42 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(13): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:09:49 --> Unknown column 'Count' in 'field list'
+CRITICAL - 2022-08-25 12:09:49 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(13): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-25 12:10:48 --> Call to a member function Count() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-25 12:11:15 --> Call to a member function Count() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-25 12:11:29 --> Unknown column 'Count * total' in 'field list'
+CRITICAL - 2022-08-25 12:11:29 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:11:47 --> Unknown column 'Count * total' in 'field list'
+CRITICAL - 2022-08-25 12:11:47 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-25 12:11:48 --> Unknown column 'Count * total' in 'field list'
+CRITICAL - 2022-08-25 12:11:48 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

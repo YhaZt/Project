@@ -76,6 +76,13 @@ class RequestController extends BaseController
 
         }
 
+      public function transac(){
+      return view('ClientUser/Transaction');
+      }
+      public function Feed()
+      {
+        return view('ClientUser/Feedback');
+      }
 
 
 

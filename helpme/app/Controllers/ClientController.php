@@ -19,7 +19,7 @@ class ClientController extends BaseController
     $data = [
       'clientID' => $id,
       'amount'  => $qty,
-      'status'  => 'test'
+      'status'  => 'pending'
     ];
     $am->save($data);
         return $id;

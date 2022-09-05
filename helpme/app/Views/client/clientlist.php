@@ -76,7 +76,6 @@
                <td><?= $user['hono']; ?></td>
                <td><a href = "/letter/<?=$user['id']?>"><?= $user['Purpose']; ?></td>
                <td>
-                 <p>Click me too!</p>
                  <button type="button"  data-id="<?= $user['id']?>"  id="cj" data-toggle="modal" data-target=".bilangin" class="ps-btn ps-btn--xs product-item-cart btn btn-success product_type_simple add_to_cart_button cj">
                   <!-- <i class="fa fa-money-bill-wave fa-2xs"></i> -->
                 </button><br>
