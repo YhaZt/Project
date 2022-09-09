@@ -34,9 +34,7 @@
             <!-- /.card -->
 
             <div class="card">
-              <div class="card-header">
-                <h3 class="card-title">Add Sitio</h3><a href="sitiolist" style=" margin-left: 1400px;" class="btn btn-info pull-right">Sitio List</a>
-              </div>
+            
               <!-- /.card-header -->
               <div class="card-body">
                 <?php if (isset($validation)) : ?>

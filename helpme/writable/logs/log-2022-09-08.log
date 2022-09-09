@@ -1,0 +1,64 @@
+ERROR - 2022-09-08 21:36:36 --> Unknown column 'Count * total' in 'field list'
+CRITICAL - 2022-09-08 21:36:36 --> Call to a member function getFirstRow() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->first()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 21:37:06 --> Unknown column 'Count * total' in 'field list'
+CRITICAL - 2022-09-08 21:37:06 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 21:38:29 --> In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'project.client.town'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-09-08 21:38:29 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 21:40:17 --> In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'project.client.town'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-09-08 21:40:17 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\ChartController.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ChartController->graph()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChartController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 22:33:01 --> Column 'sitio' cannot be null
+ERROR - 2022-09-08 22:56:57 --> Unknown column 'select sitio' in 'field list'
+CRITICAL - 2022-09-08 22:56:57 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\UtilityController.php(90): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\UtilityController->sitio()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UtilityController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 22:56:57 --> Unknown column 'select sitio' in 'field list'
+CRITICAL - 2022-09-08 22:56:57 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\UtilityController.php(90): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\UtilityController->sitio()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UtilityController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 22:56:59 --> Unknown column 'select sitio' in 'field list'
+CRITICAL - 2022-09-08 22:56:59 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\Project\helpme\app\Controllers\UtilityController.php(90): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\UtilityController->sitio()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UtilityController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

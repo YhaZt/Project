@@ -6,6 +6,7 @@ use App\Models\ClientModel;
 use App\Models\AddModel;
 use App\Models\FileUploadModel;
 use App\Models\AmountModel;
+use App\Models\SitioModel;
 
 class ClientController extends BaseController
 {
@@ -102,8 +103,10 @@ public function list()
 //   return view ('clientlist');
 // }
 public function addclient(){
+  
   return view ('client/clientadd');
 }
+
     public function store()
     {
   $municipality    = $this->request->getVar('municipality');
@@ -229,7 +232,10 @@ public function addclient(){
 		// return redirect()->to( base_url('clientlist') );
     // }
 
-
+public function regis()
+{
+  return view('client/registered');
+}
 
 }
 

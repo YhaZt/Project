@@ -91,7 +91,7 @@
             <li class="nav-item">
               <a href="clientadd" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Add CLient</p>
+                <p>Add Client</p>
               </a>
             </li>
             <li class="nav-item">
@@ -106,12 +106,12 @@
                 <p>Archived Client</p>
               </a>
             </li>
-            <!-- <li class="nav-item">
-              <a href="../clientedit" class="nav-link">
+            <li class="nav-item">
+              <a href="../clientregistered" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Edit Client</p>
+                <p>Reistered Amount</p>
               </a>
-            </li> -->
+            </li>
 
           </ul>
         </li>

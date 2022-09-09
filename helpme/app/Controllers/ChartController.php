@@ -9,10 +9,10 @@
   public function graph(){
   $order = new ClientModel();
   // $all = $order->findAll();
-  $all = $order->select('Count * total as total, town as town')->groupBy('total')->first();
+  $all = $order->select('(select count(*)) as total, town as town')->findAll();
   // echo json_encode($all);
   echo '<pre>';
   print_r($all);
     echo '</pre>';
-}
+}*
   }
