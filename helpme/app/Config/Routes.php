@@ -56,7 +56,7 @@ $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 // $routes->get('/view', 'ClientController::viewadd');
 // $routes->post('/add', 'ClientController::add');
 
-//crud client
+//crud
 $routes->get('clientarchive', 'ClientController::archivelist',["filter" => "auth"]);
 $routes->get('clientadd', 'ClientController::addclient',["filter" => "auth"]);
 $routes->get('clientadd', 'ClientController::store',["filter" => "auth"]);
@@ -66,6 +66,7 @@ $routes->get('clientlist/(:any)', 'ClientController::single/$1',["filter" => "au
 $routes->get('letter/(:any)', 'PdfController::letter/$1',["filter" => "auth"]);
 $routes->get('archive/(:num)', 'ClientController::archive/$1',["filter" => "auth"]);
 $routes->get('unarchive/(:num)', 'ClientController::unarchive/$1',["filter" => "auth"]);
+$routes->get('clientregistered', 'ClientController::regis',["filter" => "auth"]);
 // $routes->post('/client/postamount', 'ClientController::postamount',["filter" => "auth"]);
 
 //Calendar
@@ -154,6 +155,8 @@ $routes->get('Transac', 'RequestController::Transac',["filter" => "auth"]);
 //Utility
 
 $routes->get('sitioadd', 'UtilityController::addsitio',["filter" => "auth"]);
+$routes->match(["get", "post"], "sitio", "UtilityController::sitio");
+// $routes->get('sitio', 'UtilityController::sitio',["filter" => "auth"]);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
