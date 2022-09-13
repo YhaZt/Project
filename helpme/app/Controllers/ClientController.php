@@ -103,7 +103,7 @@ public function list()
 //   return view ('clientlist');
 // }
 public function addclient(){
-  
+
   return view ('client/clientadd');
 }
 
@@ -172,7 +172,7 @@ public function addclient(){
           'town'             => $this->request->getVar('Town'),
           'town'             =>   $mun,
           'barangay'         => $this->request->getVar('barangay'),
-          'sitio'            => $this->request->getVar('Sitio'),
+          'sitio'            => $this->request->getVar('sitio'),
           'hono'         => $this->request->getVar('HouseNumber'),
           'Purpose'          => $this->request->getVar('Purpose')
             ];

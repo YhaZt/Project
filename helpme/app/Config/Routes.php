@@ -67,6 +67,7 @@ $routes->get('letter/(:any)', 'PdfController::letter/$1',["filter" => "auth"]);
 $routes->get('archive/(:num)', 'ClientController::archive/$1',["filter" => "auth"]);
 $routes->get('unarchive/(:num)', 'ClientController::unarchive/$1',["filter" => "auth"]);
 $routes->get('clientregistered', 'ClientController::regis',["filter" => "auth"]);
+$routes->get('pdf/(:any)', 'PdfController::pdfview/$1',["filter" => "auth"]);
 // $routes->post('/client/postamount', 'ClientController::postamount',["filter" => "auth"]);
 
 //Calendar
@@ -150,6 +151,10 @@ $routes->post("drop", "RequestController::FileStore",["filter" => "auth"]);
 $routes->get('image-table', 'RequestController::RequestTable',["filter" => "auth"]);
 $routes->get('Feed', 'RequestController::Feed',["filter" => "auth"]);
 $routes->get('Transac', 'RequestController::Transac',["filter" => "auth"]);
+
+//Charts
+
+$routes->get('analy', 'ChartController::anal');
 
 
 //Utility

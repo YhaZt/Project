@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\ClientModel;
+use App\Models\FileUploadModel;
 use Mpdf\Mpdf;
 require_once 'vendor/autoload.php';
 
@@ -41,8 +42,16 @@ $mpdf->SetHTMLFooter('
 		$this->response->setHeader('Content-Type', 'application/pdf');
 		$output = 'Guarantee Letter'.' '.$cname . ' ' . date('Y_m_d') . '_.pdf';
 		$mpdf->Output($output , 'I');
+	}
 
+	public function pdfview($id = null)
+	{
+$file = new FileUploadModel();
 
+// $filename = "/path/to/the/file.pdf";
+// header("Content-type: application/pdf");
+// header("Content-Length: " . filesize($filename));
+// readfile($filename);
 
 	}
 }

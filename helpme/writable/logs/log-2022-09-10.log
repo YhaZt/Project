@@ -1,0 +1,94 @@
+CRITICAL - 2022-09-10 00:46:46 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:46:49 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:46:50 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:46:52 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:52:50 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:52:52 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:54:31 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:54:32 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:56:00 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:56:02 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 00:56:04 --> filesize(): stat failed for /path/to/the/file.pdf
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\laragon\\www\\...', 53, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(53): filesize('/path/to/the/fi...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('2')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-10 02:12:55 --> Call to a member function view() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
