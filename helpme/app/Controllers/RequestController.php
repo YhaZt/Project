@@ -16,6 +16,11 @@ class RequestController extends BaseController
       $data = [
         'request' =>$this->request->getVar('request'),
         'name' => $session->get('name'),
+        'request' =>$this->request->getVar('request'),
+        'name' => $session->get('name'),
+        'phone_no' => $session->get('phone_no'),
+        'email' => $session->get('email'),
+        'client_id' => $session->get('client_id'),
       ];
       return view ('ClientUser/RequestForm', $data);
     }
@@ -35,9 +40,14 @@ class RequestController extends BaseController
 
     public function FileStore()
       {
+
+          $session = session();
+          $name = $session->get('name');
           $image = $this->request->getFile('file');
           $request = $this->request->getVar('request');
-          $name = $this->request->getVar('name');
+          // $name = $this->request->getVar('name');
+          $phone_no = $this->request->getVar('phone_no');
+          $email = $this->request->getVar('email');
           $str = str_replace(' ', '', $name);
           $imageName = $image->getName();
           $path = 'ClientUserFiles/'.$str.'/';
@@ -54,16 +64,19 @@ class RequestController extends BaseController
       $imageUpload = new RequestModel();
 
       $data = [
+        "phone_no" => $phone_no,
+        "email" => $email,
         "client_name" => $str,
         "request" => $request,
+        "status" => 'pending',
         "client_files" => $directory . $imageName
       ];
 
       $imageUpload->insert($data);
 
           return json_encode(array(
-        "status" => 1,
-        "client_files" => $imageName
+        "client_files" => $imageName,
+        "status" => pending
 
       ));
 
@@ -71,10 +84,18 @@ class RequestController extends BaseController
       public function table(){
             $userModel = new FileUploadModel();
             $data['client_files'] = $userModel->orderBy('id', 'DESC')->findAll();
-
             return view('ClientUser/RequestTable', $data);
-
         }
+        public function rtable(){
+              $userModel = new RequestModel();
+              $data['client_detail'] = $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll();
+              return view('ClientUser/RTable', $data);
+          }
+
+          public function reqtable()
+          {
+            return view('ClientUser/RTable');
+          }
 
       public function transac(){
       return view('ClientUser/Transaction');
@@ -83,6 +104,8 @@ class RequestController extends BaseController
       {
         return view('ClientUser/Feedback');
       }
+
+
 
 
 

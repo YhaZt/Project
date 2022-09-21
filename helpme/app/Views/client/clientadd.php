@@ -42,7 +42,7 @@
 
               <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">Add Client</h3><a href="clientlist" style=" margin-left: 1400px;" class="btn btn-info pull-right">Client List</a>
+                  <h3 class="card-title">Add Client</h3><a href="clientlist" style=" margin-left: 100px;" class="btn btn-info pull-right">Client List</a>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
@@ -116,6 +116,7 @@
                     <div class="form-group">
                       <label for="sitio">Sitio</label>
                       <select name="sitio" id="sitio"  class="form-control sitio" >
+                        <option value="">Select Sitio</option>
                       </select>
 
                     </div>
@@ -138,7 +139,7 @@
 
                     <button type="submit" name="submit" class="btn btn-success">Submit</button>
                   </form>
-                  
+
                 </div>
               </div>
             </div>
@@ -153,6 +154,7 @@
 
 
   <?= $this->include('FirstDistrict/include/end') ?>
+  
   <script>
   $(document).ready(function(){
     $("#barangay").click(function(){
@@ -169,7 +171,7 @@
           .find('option')
           .remove()
           .end()
-          .append('<option value=""></option>')
+          .append('<option value="">Select Sitio</option>')
           .val('');
           var obj = jQuery.parseJSON(rp);
           $.each(obj, function(key, value) {

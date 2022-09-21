@@ -63,6 +63,8 @@
                 <form action="<?= base_url('drop') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
                   <input type="hidden" name="name" value="<?=$name?>">
                   <input type="hidden" name="request" value="<?=$request?>">
+                  <input type="hidden" name="phone_no" value="<?=$phone_no?>">
+                  <input type="hidden" name="email" value="<?=$email?>">
                     <div>
                         <h3 class="text-center">Upload Multiple File By Click On Box</h3>
                     </div>

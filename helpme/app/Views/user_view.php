@@ -188,21 +188,21 @@
                      footer: true,
                      autoPrint: false,
                      // messageTop: 'The information in this table is copyright to Sirius Cybernetics Corp.',
-                     messageBottom: 'Logbook Report',
+                     // messageBottom: 'Logbook Report',
                      exportOptions: {
                                          columns: [ 0, ':visible' ]
                                      }
                  },
                  {
                      extend: 'pdf',
-                     messageBottom: 'Logbook Report',
+                     // messageBottom: 'Logbook Report',
                      exportOptions: {
                                          columns: [ 0, ':visible' ]
                                      }
                  },
                  {
                      extend: 'csv',
-                     messageBottom: 'Logbook Report',
+                     // messageBottom: 'Logbook Report',
                      exportOptions: {
                                          columns: [ 0, ':visible' ]
                                      }

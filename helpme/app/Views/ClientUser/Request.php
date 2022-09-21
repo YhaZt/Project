@@ -52,6 +52,7 @@
               <!-- /.card -->
             </div>
 
+                <?= $this->include('ClientUser/RTable') ?>
 
       <div class="modal fade" id="modal-default">
         <div class="modal-dialog">
@@ -87,6 +88,7 @@
                 <!-- /.row -->
               </div>
 
+
             <div class="modal-footer justify-content-between">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               <button type="submit" name="submit" class="btn btn-primary">Proceed</button>
@@ -115,3 +117,14 @@
 </div>
 
 <?= $this->include('ClientUser/include/end') ?>
+
+<script>
+$(document).ready(function() {
+    $('#test').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    } );
+} );
+</script>

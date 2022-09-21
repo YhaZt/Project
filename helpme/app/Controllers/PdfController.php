@@ -13,7 +13,6 @@ class PdfController extends BaseController
 	 function letter($id = null)
 	{
 		$mpdf = new \Mpdf\Mpdf();
-
 		$mpdf->SetHTMLHeader('
 <div style="text-align: center; font-weight: bold;">
     <img src="/system_image/logo.jpg" width = "50" />
@@ -44,14 +43,18 @@ $mpdf->SetHTMLFooter('
 		$mpdf->Output($output , 'I');
 	}
 
-	public function pdfview($id = null)
+	 function pdfview($id = null)
 	{
 $file = new FileUploadModel();
-
-// $filename = "/path/to/the/file.pdf";
+$files = $this->request->getFile('files');
+// // $pdf = $file->where('id',$pdf)->first();
+// $filename = $file;
 // header("Content-type: application/pdf");
 // header("Content-Length: " . filesize($filename));
 // readfile($filename);
-
+        $tofile= realpath($files);
+        header('Content-Type: application/pdf');
+				header("Content-Length: " . filesize($tofile));
+        readfile($tofile);
 	}
 }

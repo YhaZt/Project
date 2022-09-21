@@ -67,6 +67,7 @@ $routes->get('letter/(:any)', 'PdfController::letter/$1',["filter" => "auth"]);
 $routes->get('archive/(:num)', 'ClientController::archive/$1',["filter" => "auth"]);
 $routes->get('unarchive/(:num)', 'ClientController::unarchive/$1',["filter" => "auth"]);
 $routes->get('clientregistered', 'ClientController::regis',["filter" => "auth"]);
+$routes->get('decline/(:num)', 'ClientController::regedit/$1',["filter" => "auth"]);
 $routes->get('pdf/(:any)', 'PdfController::pdfview/$1',["filter" => "auth"]);
 // $routes->post('/client/postamount', 'ClientController::postamount',["filter" => "auth"]);
 
@@ -144,6 +145,8 @@ $routes->get('delete-todo/(:num)', 'TodoController::delete/$1');
 
 //CLient Side
 $routes->get('request', 'RequestController::index');
+$routes->get('RequestTable', 'RequestController::rtable',["filter" => "auth"]);
+// $routes->get('RequestTable', 'RequestController::rtable',["filter" => "auth"]);
 $routes->get('addrequest','RequestController::store');
 $routes->get('requestform', 'RequestController::reqform');
 $routes->get("image-upload", "RequestController::drop",["filter" => "auth"]);

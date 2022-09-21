@@ -1,0 +1,382 @@
+CRITICAL - 2022-09-15 10:11:10 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:15:19 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:15:21 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:15:22 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:17:45 --> Call to a member function where() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 10:18:02 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:04 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:05 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:19 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:24 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('3')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:26 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('3')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:40 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('3')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:18:45 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:19:50 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(55): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:22:29 --> Call to a member function getFile() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 10:23:12 --> Call to a member function set_content_type() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 10:23:14 --> Call to a member function set_content_type() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 10:23:39 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-15 10:24:58 --> Call to a member function segment() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 10:24:59 --> Call to a member function segment() on null
+#0 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-15 10:25:18 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 59, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(59): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:25:21 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 59, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(59): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:25:22 --> readfile(): Filename cannot be empty
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(): Fil...', 'C:\\laragon\\www\\...', 59, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(59): readfile('')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:25:45 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:26:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:26:19 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:27:28 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:28:58 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 10:29:17 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:00:48 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in C:\laragon\www\Project\helpme\system\Helpers\url_helper.php on line 87
+#0 C:\laragon\www\Project\helpme\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 C:\laragon\www\Project\helpme\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(61): base_url(NULL)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-15 21:02:27 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:02:30 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:02:31 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:33:06 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:33:07 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:33:08 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:33:09 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:33:10 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:33:12 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:43:05 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 59, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(59): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 21:43:11 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 59, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(59): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'LaptopAceer', 'WB-ANS KEY-FUND...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-15 23:49:12 --> Use of undefined constant pending - assumed 'pending' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 78, Array)
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->rtable()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

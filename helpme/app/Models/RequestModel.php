@@ -17,6 +17,7 @@ class RequestModel extends Model
       'client_files',
       'amount',
       'status',
+      'reason',
       'created_at',
       'updated_at'
     ];
