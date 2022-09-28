@@ -52,25 +52,14 @@
             </tr>
          </thead>
          <tbody>
-            <?php if($client_detail): ?>
-            <?php foreach($client_detail as $user): ?>
+            <?php if($Approved): ?>
+            <?php foreach($Approved as $user): ?>
               <tr>
-                 <td><a href = "/clientlist/<?=$user['id']?>"><?= $user['FirstName'] .' ' . $user['MiddleName'] . ' ' . $user['LastName'] ?></a></td>
-                 <td><?= $user['Birthday']; ?></td>
-                 <td><?= $user['Age']; ?></td>
-                 <td><?= $user['Gender']; ?></td>
-                 <td><?= $user['MobileNumber']; ?></td>
-                 <td><?= $user['Occupation']; ?></td>
-                 <td><?= $user['town'] . ', ' . $user['barangay'] . ', ' . $user['sitio']; ?></td>
-                 <td><?= $user['hono']; ?></td>
-                 <td><a href = "/letter/<?=$user['id']?>"><?= $user['Purpose']; ?></td>
-                 <td>
-                   <button type="button"  data-id="<?= $user['id']?>"  id="cj" data-toggle="modal" data-target=".bilangin" class="ps-btn ps-btn--xs product-item-cart btn btn-success product_type_simple add_to_cart_button cj">
-                    <!-- <i class="fa fa-money-bill-wave fa-2xs"></i> -->
-                  </button><br>
-                   <a   href="../ClientController/edit/<?php echo $user['id']; ?>">Edit</a>
-
-                 <a href="../ClientController/archive/<?php echo $user['id']; ?>" >Archive</a></td>
+                <td><?= $user['client_name']; ?></td>
+                <td><?= $user['email']; ?></td>
+                <td><?= $user['phone_no']; ?></td>
+                <td><?= $user['request']; ?></td>
+                <td><?= $user['status']; ?></td>
               </tr>
 
            <?php endforeach; ?>
@@ -117,25 +106,15 @@
            </tr>
         </thead>
         <tbody>
-           <?php if($client_detail): ?>
-           <?php foreach($client_detail as $user): ?>
+           <?php if($Declined): ?>
+           <?php foreach($Declined as $user): ?>
              <tr>
-                <td><a href = "/clientlist/<?=$user['id']?>"><?= $user['FirstName'] .' ' . $user['MiddleName'] . ' ' . $user['LastName'] ?></a></td>
-                <td><?= $user['Birthday']; ?></td>
-                <td><?= $user['Age']; ?></td>
-                <td><?= $user['Gender']; ?></td>
-                <td><?= $user['MobileNumber']; ?></td>
-                <td><?= $user['Occupation']; ?></td>
-                <td><?= $user['town'] . ', ' . $user['barangay'] . ', ' . $user['sitio']; ?></td>
-                <td><?= $user['hono']; ?></td>
-                <td><a href = "/letter/<?=$user['id']?>"><?= $user['Purpose']; ?></td>
-                <td>
-                  <button type="button"  data-id="<?= $user['id']?>"  id="cj" data-toggle="modal" data-target=".bilangin" class="ps-btn ps-btn--xs product-item-cart btn btn-success product_type_simple add_to_cart_button cj">
-                   <!-- <i class="fa fa-money-bill-wave fa-2xs"></i> -->
-                 </button><br>
-                  <a   href="../ClientController/edit/<?php echo $user['id']; ?>">Edit</a>
-
-                <a href="../ClientController/archive/<?php echo $user['id']; ?>" >Archive</a></td>
+               <td><?= $user['client_name']; ?></td>
+               <td><?= $user['email']; ?></td>
+               <td><?= $user['phone_no']; ?></td>
+               <td><?= $user['request']; ?></td>
+               <td><?= $user['status']; ?></td>
+               <td><?= $user['reason']; ?></td>
              </tr>
 
           <?php endforeach; ?>

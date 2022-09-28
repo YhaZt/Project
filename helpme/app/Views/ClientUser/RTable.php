@@ -19,11 +19,7 @@
             <td><?= $user['phone_no']; ?></td>
             <td><?= $user['request']; ?></td>
             <td><?= $user['status']; ?></td>
-            <td>
 
-              <a   href="../ClientController/edit/<?php echo $user['id']; ?>">Edit</a>
-
-            <a href="../ClientController/archive/<?php echo $user['id']; ?>" >Archive</a></td>
          </tr>
 
       <?php endforeach; ?>

@@ -8,9 +8,9 @@
   <?= $this->include('FirstDistrict/include/nav')?>
   <?= $this->include('FirstDistrict/include/sidebar')?>
 
-  
+
 <div class="content-wrapper">
-  <section class="content-header">
+<section class="content-header">
 
   </section>
 <div id="by_year" ></div>

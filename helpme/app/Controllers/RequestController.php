@@ -88,18 +88,34 @@ class RequestController extends BaseController
         }
         public function rtable(){
               $userModel = new RequestModel();
-              $data['client_detail'] = $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll();
-              return view('ClientUser/RTable', $data);
+              $data = [
+                'client_detail' =>  $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll()
+              ];
+              return view('ClientUser/Request', $data);
+              // echo '<pre>';
+              // print_r($data);
+              //   echo '</pre>';
           }
 
-          public function reqtable()
-          {
-            return view('ClientUser/RTable');
-          }
+          // public function reqtable()
+          // {
+          //   return view('ClientUser/RTable');
+          // }
 
       public function transac(){
       return view('ClientUser/Transaction');
       }
+      public function tran(){
+            $userModel = new RequestModel();
+            $data = [
+              'Approved' =>  $userModel->where('status', 'approve')->orderBy('id', 'DESC')->findAll(),
+              'Declined' =>  $userModel->where('status', 'decline')->orderBy('id', 'DESC')->findAll()
+            ];
+            return view('ClientUser/Transaction', $data);
+            // echo '<pre>';
+            // print_r($data);
+            //   echo '</pre>';
+        }
       public function Feed()
       {
         return view('ClientUser/Feedback');

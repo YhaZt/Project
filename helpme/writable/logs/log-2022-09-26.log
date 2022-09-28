@@ -1,0 +1,40 @@
+ERROR - 2022-09-26 23:28:13 --> Unknown column 'Reperesentative' in 'field list'
+ERROR - 2022-09-26 23:30:25 --> Unknown column 'Reperesentative' in 'field list'
+ERROR - 2022-09-26 23:31:39 --> Unknown column 'Reperesentative' in 'field list'
+ERROR - 2022-09-26 23:38:24 --> Unknown column 'Reperesentative' in 'field list'
+CRITICAL - 2022-09-26 23:46:38 --> syntax error, unexpected 'years' (T_STRING), expecting ';' or ','
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\DatatableController.php(12): view('user_view', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\DatatableController->index()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatatableController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-26 23:46:44 --> syntax error, unexpected ''years old'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\DatatableController.php(12): view('user_view', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\DatatableController->index()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatatableController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-26 23:47:05 --> syntax error, unexpected ';'
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\DatatableController.php(12): view('user_view', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\DatatableController->index()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatatableController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-26 23:59:52 --> syntax error, unexpected end of file
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\DatatableController.php(15): view('user_view', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\DatatableController->index()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatatableController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -73,14 +73,13 @@ $routes->get('pdf/(:any)', 'PdfController::pdfview/$1',["filter" => "auth"]);
 
 //Calendar
 // $routes->get("fullcalendar", "Fullcalendar::index");
-$routes->get("event", "Fullcalendar::loadData");
-$routes->post("ajax", "Fullcalendar::eventAjax");
-
-
-$routes->get("evewnt", "FullCalendar::loadData");
-$routes->post("event", "Calendar::eventCalendar");
-$routes->get('calendar', 'Calendar::index');
+// $routes->get("event", "Fullcalendar::loadData");
+// $routes->post("ajax", "Fullcalendar::eventAjax");
+// $routes->get("evewnt", "FullCalendar::loadData");
+// $routes->post("event", "Calendar::eventCalendar");
+// $routes->get('calendar', 'Calendar::index');
 // $routes->get('/views', 'ClientController::viewclient');
+
 //DataTables
 $routes->get('users-list', 'DatatableController::index',["filter" => "auth"]);
 //Chart
@@ -145,7 +144,8 @@ $routes->get('delete-todo/(:num)', 'TodoController::delete/$1');
 
 //CLient Side
 $routes->get('request', 'RequestController::index');
-$routes->get('RequestTable', 'RequestController::rtable',["filter" => "auth"]);
+$routes->get('rctable', 'RequestController::rtable',["filter" => "auth"]);
+$routes->get('trantable', 'RequestController::tran',["filter" => "auth"]);
 // $routes->get('RequestTable', 'RequestController::rtable',["filter" => "auth"]);
 $routes->get('addrequest','RequestController::store');
 $routes->get('requestform', 'RequestController::reqform');
@@ -155,7 +155,7 @@ $routes->get('image-table', 'RequestController::RequestTable',["filter" => "auth
 $routes->get('Feed', 'RequestController::Feed',["filter" => "auth"]);
 $routes->get('Transac', 'RequestController::Transac',["filter" => "auth"]);
 
-//Charts
+//Charts itoooo
 
 $routes->get('analy', 'ChartController::anal');
 

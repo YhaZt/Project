@@ -117,14 +117,3 @@
 </div>
 
 <?= $this->include('ClientUser/include/end') ?>
-
-<script>
-$(document).ready(function() {
-    $('#test').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'copy', 'csv', 'excel', 'pdf', 'print'
-        ]
-    } );
-} );
-</script>

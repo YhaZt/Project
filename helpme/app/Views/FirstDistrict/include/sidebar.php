@@ -125,7 +125,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="columnchart" class="nav-link">
+              <a href="analy" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Column Chart</p>
               </a>

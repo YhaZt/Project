@@ -25,6 +25,7 @@ class ClientController extends BaseController
     $am->save($data);
     return $id;
   }
+  //di pa okay
   public function postdecline()
   {
     $id = $this->request->getVar('status');
@@ -38,6 +39,7 @@ class ClientController extends BaseController
     $am->save($data);
     return $id;
   }
+
   public function __construct()
   {
     $this->session = service('session');
@@ -173,6 +175,7 @@ class ClientController extends BaseController
     $municipality    = $this->request->getVar('municipality');
     $session = session();
     $data = [
+      'Representative'   => $this->request->getVar('Rep'),
       'FirstName'        => $this->request->getVar('FName'),
       'MiddleName'       => $this->request->getVar('MName'),
       'LastName'         => $this->request->getVar('LName'),
@@ -183,10 +186,12 @@ class ClientController extends BaseController
       'Occupation'       => $this->request->getVar('Occupation'),
       'province'         => $this->request->getVar('Province'),
       'town'             => $this->request->getVar('Town'),
-      'town'             =>   $mun,
+      'town'             => $mun,
       'barangay'         => $this->request->getVar('barangay'),
       'sitio'            => $this->request->getVar('sitio'),
-      'hono'         => $this->request->getVar('HouseNumber'),
+      'hono'             => $this->request->getVar('HouseNumber'),
+      'Diagnosis'        => $this->request->getVar('Diag'),
+      'Hospital'         => $this->request->getVar('Hos'),
       'Purpose'          => $this->request->getVar('Purpose')
     ];
     // var_dump($data);

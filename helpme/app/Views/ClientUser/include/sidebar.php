@@ -72,7 +72,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="request" class="nav-link">
+          <a href="rctable" class="nav-link">
             <i class="nav-icon fas fa-envelope-open"></i>
             <p>
             Request
@@ -80,7 +80,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="Transac" class="nav-link">
+          <a href="trantable" class="nav-link">
             <i class="nav-icon fas fa-desktop"></i>
             <p>
               Transaction Log

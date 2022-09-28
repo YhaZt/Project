@@ -56,22 +56,24 @@
 
                   <form method="post"  action="ClientController/store">
                     <div class="form-group">
-                      <label for="FirstName">First Name</label>
+                      <label for="Representative">Representative Fullname</label>
+                      <input type="text" class="form-control" name="Rep" placeholder="Reperesentative Fullname">
+                    </div>
+                    <div class="form-group">
+                      <label for="FirstName">Client First Name</label>
                       <input type="text" class="form-control" name="FName" placeholder="First Nane">
                     </div>
                     <div class="form-group">
-                      <label for="MiddleName">Middle Name</label>
+                      <label for="MiddleName">Client Middle Name</label>
                       <input type="text" class="form-control" name="MName"placeholder="Middle Name" >
                     </div>
                     <div class="form-group">
-                      <label for="LastName">Last Name</label>
+                      <label for="LastName">Client Last Name</label>
                       <input type="text" class="form-control" name="LName" placeholder="Last Name">
-
                     </div>
                     <div class="form-group">
                       <label for="Birthday">Birthday</label>
                       <input type="text" class="form-control" name="DOB" id="dob" placeholder="Birthday">
-
                     </div>
                     <div class="form-group">
                       <label for="Age">Age</label>
@@ -93,7 +95,6 @@
                     <div class="form-group">
                       <label for="Occupation">Occupation</label>
                       <input type="text" class="form-control" name="Occupation"placeholder="Occupation" >
-
                     </div>
                     <div class="form-group">
                       <label for="province">Province</label>
@@ -123,16 +124,30 @@
                     <div class="form-group">
                       <label for="hono">House Number</label>
                       <input type="text" class="form-control" name="HouseNumber" placeholder="House Number">
-
+                    </div>
+                    <div class="form-group">
+                      <label for="Diagnosis">Diagnosis</label>
+                      <input type="text" class="form-control" name="Diag" placeholder="Diagnosis">
+                    </div>
+                    <div class="form-group">
+                      <label for="Hospital">Hospital</label>
+                      <select name = "Hos" class="form-control" >
+                        <option  value="">Hospital</option>
+                        <option value="MAES">MAES</option>
+                        <option value="MMG">MMG</option>
+                        <option value="OMPH">OMPH</option>
+                        <option value="SMV">SMV</option>
+                        <option value="Luna Goco">Luna Goco</option>
+                      </select>
                     </div>
                     <div class="form-group">
                       <label for="Purpose">Purpose</label>
                       <select name = "Purpose" class="form-control" >
                         <option  value="">Purpose</option>
-                        <option value="Medical">Medical</option>
-                        <option value="Medecine">Medecine</option>
+                        <option value="Hospital Bill">Hospital Bill</option>
+                        <option value="Burial">Funeral Assistance</option>
                         <option value="Laboratory">Laboratory</option>
-                        <option value="Funeral">Funeral</option>
+                        <option value="Medical">Medical</option>
                         <option value="Transportation">Transportation</option>
                       </select>
                     </div>
@@ -154,7 +169,7 @@
 
 
   <?= $this->include('FirstDistrict/include/end') ?>
-  
+
   <script>
   $(document).ready(function(){
     $("#barangay").click(function(){

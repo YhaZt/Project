@@ -6,6 +6,7 @@ class DatatableModel extends Model{
   protected $table = 'client';
   protected $primaryKey = 'id';
   protected $allowedFields = [
+    'Representative',
     'FirstName',
     'MiddleName',
     'LastName',
@@ -19,6 +20,8 @@ class DatatableModel extends Model{
     'barangay',
     'sitio',
     'hono',
+    'Diagnosis',
+    'Hospital',
     'Purpose',
     'is_archive',
     'created_at'
