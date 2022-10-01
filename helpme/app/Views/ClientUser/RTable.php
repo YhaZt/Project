@@ -14,6 +14,7 @@
        <?php if($client_detail): ?>
        <?php foreach($client_detail as $user): ?>
          <tr>
+
             <td><?= $user['client_name']; ?></td>
             <td><?= $user['email']; ?></td>
             <td><?= $user['phone_no']; ?></td>

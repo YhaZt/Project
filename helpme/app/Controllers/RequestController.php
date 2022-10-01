@@ -6,6 +6,27 @@ use App\Models\UserModel;
 class RequestController extends BaseController
 {
 
+    protected $session;
+    public function __construct()
+    {
+      $this->session = service('session');
+    }
+
+    private function setUserSession($user)
+    {
+        $data = [
+            'id' => $user['id'],
+            'name' => $user['name'],
+            'phone_no' => $user['phone_no'],
+            'email' => $user['email'],
+            'isLoggedIn' => true,
+            "role" => $user['role']
+        ];
+
+        session()->set($data);
+        return true;
+    }
+
     public function index()
     {
         return view('ClientUser/Request');
@@ -91,9 +112,14 @@ class RequestController extends BaseController
             return view('ClientUser/RequestTable', $data);
         }
         public function rtable(){
+
+          $id = $this->request->getFile('id');
+          $session = session();
               $userModel = new RequestModel();
               $data = [
-                'client_detail' =>  $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll()
+                'client_detail' =>  $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll(),
+                'logged' => $session->get('id'),
+
               ];
               return view('ClientUser/Request', $data);
               // echo '<pre>';
