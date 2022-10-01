@@ -5,12 +5,16 @@ use App\Models\RequestModel;
 use App\Models\UserModel;
 class RequestController extends BaseController
 {
+
     public function index()
     {
         return view('ClientUser/Request');
     }
+
     public function reqform()
     {
+
+      $file = new RequestModel();
       $session = session();
       $name = $session->get('name');
       $data = [

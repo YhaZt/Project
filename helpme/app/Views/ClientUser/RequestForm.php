@@ -22,11 +22,12 @@
               <?= $request ?></h1>
             <h5>
               <?php
-                $Medical = "Indigency of patient<br>Birth Certificate<br>Hospital Bill";
-                $Laboratory = "Indigency of patient<br>Birth Certificate<br>Laboratory Test";
-                $Medicine = "Indigency of patient<br>Birth Certificate<br>Reseta";
-                $Funeral = "Indigency of patient<br>Birth Certificate<br>Funeral Contract";
-                $Transportation = "Indigency of Client<br>Birth Certificate <br>";
+
+                $Medical = "Indigency of patient<br>Birth Certificate<br>Hospital Bill<br>Only Pdf is accepted, maximum size is 5mb";
+                $Laboratory = "Indigency of patient<br>Birth Certificate<br>Laboratory Test<br>Only Pdf is accepted, maximum size is 5mb";
+                $Medicine = "Indigency of patient<br>Birth Certificate<br>Reseta<br>Only Pdf is accepted, maximum size is 5mb";
+                $Funeral = "Indigency of patient<br>Birth Certificate<br>Funeral Contract<br>Only Pdf is accepted, maximum size is 5mb";
+                $Transportation = "Indigency of Client<br>Birth Certificate <br><br>Only Pdf is accepted, maximum size is 5mb";
 
               if($request == 'Medical'){
                 echo "<br><br>Recuirements: <br><br>" . $Medical;
@@ -53,10 +54,11 @@
         </div>
       </div>
     </section>
+<br>
+<!-- compare date date difference -->
+<?php   ?>
 
-<br><br>
-
-    <div  style="margin-right:20px;"class="container section">
+    <div style="margin-right:20px;"class="container section">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3 class="text-center">Upload Client File Here</h3>

@@ -14,31 +14,52 @@ class ClientController extends BaseController
 
   public function postamount()
   {
+    // $id = $this->request->getVar('id');
+    $qty = $this->request->getVar('qty');
+    $am = new ClientModel();
+    $data = [
+      // 'clientID' => $id,
+      'amount'  => $qty,
+      'is_archive'  => '1'
+    ];
+    // $am->save($data);
+    $am->update($id, $data);
+    // return $id
+  }
+
+
+  public function postcamount()
+  {
     $id = $this->request->getVar('id');
     $qty = $this->request->getVar('qty');
-    $am = new AmountModel();
+    $am = new RequestModel();
     $data = [
-      'clientID' => $id,
+      // 'clientID' => $id,
       'amount'  => $qty,
-      'status'  => 'pending'
+      'status'  => 'approve'
     ];
-    $am->save($data);
-    return $id;
+    // $am->save($data);
+    $am->update($id, $data);
+    // return $id
   }
+
+
   //di pa okay
   public function postdecline()
   {
-    $id = $this->request->getVar('status');
-    $qty = $this->request->getVar('reason');
+    $id = $this->request->getVar('id');
+    $qty = $this->request->getVar('qty');
     $am = new RequestModel();
     $data = [
       // 'clientID' => $id,
       'reason'  => $qty,
       'status'  => 'decline'
     ];
-    $am->save($data);
+    $am->update($id, $data);
     return $id;
   }
+
+
 
   public function __construct()
   {
@@ -64,7 +85,9 @@ class ClientController extends BaseController
       'test' =>$client['id']
     ];
     // echo $cname;
-
+// echo '<pre>';
+// print_r($data);
+// echo '<pre>';
     return view('upload-view', $data);
   }
 
@@ -201,16 +224,7 @@ class ClientController extends BaseController
     return redirect()->to('clientadd');
   }
 
-  public function decline($id = null)
-  {
-    $model = new RequestModel();
-    $data = [
-      'reason'       => $this->request->getVar('decline')
-      // 'client_detail' => $model->update($id,['status' => 'decline'])
-    ];
-    $model->save($data);
-    return redirect()->back()->withInput()->with('message', 'Item is Declined.');
-  }
+
 
 
   public function edit($id = null)
@@ -259,13 +273,22 @@ class ClientController extends BaseController
   // $data['user'] = $model->where('id', $id)->delete();
   // return redirect()->to( base_url('clientlist') );
   // }
-
+  public function regam(){
+  return view('client/amregistered');
+  }
   public function regis()
   {
     $userModel = new RequestModel();
-    $data['client_detail'] = $userModel->orderBy('id', 'DESC')->findAll();
+    $data['client_detail'] = $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll();
     return view('client/registered',$data);
   }
+  public function amregis()
+  {
+    $userModel = new RequestModel();
+    $data['client_detail'] = $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll();
+    return view('client/amregistered',$data);
+  }
+
   // public function decline($id = null)
   // {
   //   $model = new RequestModel();

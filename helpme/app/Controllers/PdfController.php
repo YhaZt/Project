@@ -6,6 +6,8 @@ use CodeIgniter\Controller;
 use App\Models\ClientModel;
 use App\Models\FileUploadModel;
 use Mpdf\Mpdf;
+use Dompdf\Dompdf;
+require_once 'dompdf/autoload.inc.php';
 require_once 'vendor/autoload.php';
 
 class PdfController extends BaseController
@@ -45,16 +47,14 @@ $mpdf->SetHTMLFooter('
 
 	 function pdfview($id = null)
 	{
+
+			// $dompdf = new \Dompdf\Dompdf();
 $file = new FileUploadModel();
 $files = $this->request->getFile('files');
-// // $pdf = $file->where('id',$pdf)->first();
-// $filename = $file;
-// header("Content-type: application/pdf");
-// header("Content-Length: " . filesize($filename));
-// readfile($filename);
-        $tofile= realpath($files);
-        header('Content-Type: application/pdf');
-				header("Content-Length: " . filesize($tofile));
-        readfile($tofile);
+$dompdf = new Dompdf();
+     $dompdf->load_html($id);
+     $dompdf->set_paper($this->paper, $this->orien);
+     $dompdf->render();
+     $dompdf->stream($files, array('Attachment' => false));
 	}
 }

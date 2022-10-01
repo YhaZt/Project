@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- auto reload ito thru meta -->
+   <!-- <meta http-equiv="refresh" content="10" />  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="/system_image/logo.jpg" type="image/icon type">
   <title>HelpMe Tracker</title>

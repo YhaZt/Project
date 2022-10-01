@@ -19,4 +19,10 @@ public function anal()
     // print_r($all);
     //   echo '</pre>';
   }
+  // public function graph(){
+  //   $order = new ClientModel();
+  //   $all = $order->select('(select count(*)) as total, town as town')->findAll();
+  //   echo json_encode($all);
+  // }
+
 }

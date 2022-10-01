@@ -73,7 +73,7 @@
                     </div>
                     <div class="form-group">
                       <label for="Birthday">Birthday</label>
-                      <input type="text" class="form-control" name="DOB" id="dob" placeholder="Birthday">
+                      <input type="text" class="form-control" name="DOB" id="dob" placeholder="Birthday" autocomplete="off">
                     </div>
                     <div class="form-group">
                       <label for="Age">Age</label>

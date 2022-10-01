@@ -1,0 +1,130 @@
+CRITICAL - 2022-09-28 07:23:37 --> Use of undefined constant pending - assumed 'pending' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 79, Array)
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->FileStore()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 07:26:28 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'CantosAngelica', 'Carpel Sweet Dr...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-28 07:26:31 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'CantosAngelica', 'Carpel Sweet Dr...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-28 07:26:32 --> readfile(C:\laragon\www\Project): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\lar...', 'C:\\laragon\\www\\...', 58, Array)
+#1 C:\laragon\www\Project\helpme\app\Controllers\PdfController.php(58): readfile('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\PdfController->pdfview('ClientFiles', 'CantosAngelica', 'Carpel Sweet Dr...')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-28 11:06:02 --> Cannot redeclare App\Controllers\ChartController::graph()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 11:06:03 --> Cannot redeclare App\Controllers\ChartController::graph()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 11:06:03 --> Cannot redeclare App\Controllers\ChartController::graph()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 11:06:03 --> Cannot redeclare App\Controllers\ChartController::graph()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 11:11:01 --> Cannot redeclare App\Controllers\ChartController::graph()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 21:12:56 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-28 21:13:47 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-28 21:16:47 --> Argument 3 passed to CodeIgniter\BaseModel::updateBatch() must be of the type int, string given, called in C:\laragon\www\Project\helpme\app\Controllers\ClientController.php on line 26
+#0 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(26): CodeIgniter\BaseModel->updateBatch(Array, 'amount', 'is_archive')
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->postamount()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-28 21:17:12 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, string given, called in C:\laragon\www\Project\helpme\system\BaseModel.php on line 918
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(918): CodeIgniter\BaseModel->doProtectFields('50000')
+#1 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(26): CodeIgniter\BaseModel->updateBatch(Array)
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->postamount()
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-28 21:19:16 --> syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-28 21:19:29 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-28 21:20:33 --> syntax error, unexpected ''created_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Project\helpme\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Clie...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Clie...')
+#3 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(74): spl_autoload_call('App\\Models\\Clie...')
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->list()
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-28 21:21:24 --> There is no data to update.
+#0 C:\laragon\www\Project\helpme\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\Project\helpme\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\Project\helpme\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(26): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->postamount()
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-28 22:06:29 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\Project\helpme\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\Project\helpme\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\Project\helpme\app\Controllers\ClientController.php(28): redirect('list', 'refresh')
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\ClientController->postamount()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

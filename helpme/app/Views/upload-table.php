@@ -22,7 +22,7 @@ Name: <?= $name['FirstName']?>
           <?php foreach($client_files as $user): ?>
             <tr>
                <td><?= $user['id']; ?></td>
-                 <td><a href = "/pdf/<?=$user['files']?>"><img src="<?= '/'.$user['files']; ?>" width="200" height="100" alt=""> <?= $user['files']; ?></td>
+                 <td><a href = "<?=base_url() . '/' .$user['files']?>"><?= $user['files']; ?></a></td>
             </tr>
          <?php endforeach; ?>
          <?php endif;  ?>

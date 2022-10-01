@@ -48,6 +48,7 @@
                <th>Phone Number</th>
                <th>Request</th>
               <th>Status</th>
+             <th>Amount</th>
 
             </tr>
          </thead>
@@ -60,6 +61,7 @@
                 <td><?= $user['phone_no']; ?></td>
                 <td><?= $user['request']; ?></td>
                 <td><?= $user['status']; ?></td>
+                <td><?= $user['amount']; ?></td>
               </tr>
 
            <?php endforeach; ?>

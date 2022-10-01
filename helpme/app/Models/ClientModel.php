@@ -24,6 +24,7 @@ class ClientModel extends Model{
     'Hospital',
     'Purpose',
     'is_archive',
+    'amount',
     'created_at'
   ];
 }

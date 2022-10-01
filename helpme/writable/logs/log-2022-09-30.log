@@ -1,0 +1,90 @@
+CRITICAL - 2022-09-30 01:50:15 --> syntax error, unexpected '$Medical' (T_VARIABLE)
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 01:51:28 --> syntax error, unexpected '<'
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 01:52:23 --> syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 01:58:47 --> Use of undefined constant date - assumed 'date' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\Project\helpme\app\Views\ClientUser\RequestForm.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\Project\helpme\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#4 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#6 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#7 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-30 01:58:56 --> syntax error, unexpected '='
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 01:59:04 --> syntax error, unexpected '='
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 02:10:46 --> syntax error, unexpected '<', expecting end of file
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 02:10:55 --> syntax error, unexpected '<', expecting end of file
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 02:11:27 --> syntax error, unexpected '<', expecting end of file
+#0 C:\laragon\www\Project\helpme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Project\helpme\system\Common.php(1089): CodeIgniter\View\View->render('ClientUser/Requ...', Array, true)
+#2 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(26): view('ClientUser/Requ...', Array)
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->reqform()
+#4 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#5 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-30 02:21:56 --> Use of undefined constant pending - assumed 'pending' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 81, Array)
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->FileStore()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
