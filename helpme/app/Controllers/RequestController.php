@@ -6,11 +6,11 @@ use App\Models\UserModel;
 class RequestController extends BaseController
 {
 
-    protected $session;
-    public function __construct()
-    {
-      $this->session = service('session');
-    }
+  function __construct()
+      {
+          $this->session = \Config\Services::session();
+          $this->session->start();
+      }
 
     private function setUserSession($user)
     {
@@ -36,17 +36,21 @@ class RequestController extends BaseController
     {
 
       $file = new RequestModel();
+      $request = new RequestModel();
       $session = session();
+      $id = $session->get('id');
       $name = $session->get('name');
       $data = [
-        'request' =>$this->request->getVar('request'),
-        'name' => $session->get('name'),
+        'data' => $request->where('client_id', $id)->orderBy('rupdated_at', 'desc')->first(),
+        'date' =>$session->get('created_at'),
+        'id' => $id,
         'request' =>$this->request->getVar('request'),
         'name' => $session->get('name'),
         'phone_no' => $session->get('phone_no'),
         'email' => $session->get('email'),
         'client_id' => $session->get('client_id'),
       ];
+      // var_dump($data);
       return view ('ClientUser/RequestForm', $data);
     }
 
@@ -70,12 +74,12 @@ class RequestController extends BaseController
           $name = $session->get('name');
           $image = $this->request->getFile('file');
           $request = $this->request->getVar('request');
-          // $name = $this->request->getVar('name');
           $phone_no = $this->request->getVar('phone_no');
           $email = $this->request->getVar('email');
+          $id = $this->request->getVar('id');
           $str = str_replace(' ', '', $name);
           $imageName = $image->getName();
-          $path = 'ClientUserFiles/'.$str.'/';
+          $path = 'ClientUserFiles/'.$request.'/'.$str.'/';
           $directory = $path;
     if (file_exists($directory) && is_dir($directory))
     {
@@ -84,11 +88,12 @@ class RequestController extends BaseController
     echo "Not exists. Creating...";
     mkdir($directory, 0777, true);
     }
-          $image->move('ClientUserFiles/'.$str.'/', $imageName);
+          $image->move('ClientUserFiles/'.$request.'/'.$str.'/', $imageName);
 
       $imageUpload = new RequestModel();
 
       $data = [
+        "client_id"      => $id,
         "phone_no" => $phone_no,
         "email" => $email,
         "client_name" => $str,
@@ -113,14 +118,18 @@ class RequestController extends BaseController
         }
         public function rtable(){
 
-          $id = $this->request->getFile('id');
+          // $id = $this->request->getFile('id');
           $session = session();
+          $id = $session->get('id');
               $userModel = new RequestModel();
               $data = [
-                'client_detail' =>  $userModel->where('status', 'pending')->orderBy('id', 'DESC')->findAll(),
+                'id' => $session->get('id'),
+                'client_detail' =>  $userModel->where('status', 'pending')->where('client_id' , $id)->orderBy('id', 'DESC')->findAll(),
                 'logged' => $session->get('id'),
 
               ];
+               // $this->session->set($data);
+               // echo $this->session->get("username");
               return view('ClientUser/Request', $data);
               // echo '<pre>';
               // print_r($data);

@@ -34,6 +34,10 @@
                 <form action="<?= base_url('dropzone/upload') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
                   <input type="hidden"name='id' value="<?= $name['LastName'].$name['FirstName']?>">
                   <input type ="hidden" name="name" value="<?=$name['id']?>">
+                  <input type ="hidden" name="town" value="<?=$name['town']?>">
+                  <input type ="hidden" name="brgy" value="<?=$name['barangay']?>">
+                  <input type ="hidden" name="hos" value="<?=$name['Hospital']?>">
+                  <input type ="hidden" name="diag" value="<?=$name['Diagnosis']?>">
                     <div>
                         <h3 class="text-center">Upload Multiple File By Click On Box</h3>
                     </div>

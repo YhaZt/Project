@@ -22,8 +22,12 @@ class FileUploadController extends BaseController
     {
         $image = $this->request->getFile('file');
 				$id = $this->request->getVar('id');
+				$town = $this->request->getVar('town');
+				$brgy = $this->request->getVar('brgy');
+				$hos = $this->request->getVar('hos');
+				$diag = $this->request->getVar('diag');
         $imageName = $image->getName();
-				$path = 'ClientFiles/'.$id.'/';
+				$path = 'ClientFiles/'.$hos.'/'.$town.'/'.$brgy.'/'.$diag.'/'.$id.'/';
 				$directory = $path;
 if (file_exists($directory) && is_dir($directory))
 {
@@ -32,7 +36,7 @@ if (file_exists($directory) && is_dir($directory))
   echo "Not exists. Creating...";
   mkdir($directory, 0777, true);
 }
-        $image->move('ClientFiles/'.$id.'/', $imageName);
+        $image->move('ClientFiles/'.$hos.'/'.$town.'/'.$brgy.'/'.$diag.'/'.$id.'/', $imageName);
 
 		$imageUpload = new FileuploadModel();
 

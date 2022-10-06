@@ -221,6 +221,7 @@ class ClientController extends BaseController
     $model = new ClientModel();
     $session->setFlashdata('msg', ' data added');
     $model->save($data);
+
     return redirect()->to('clientadd');
   }
 

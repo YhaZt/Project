@@ -1,5 +1,4 @@
 <?= $this->include('FirstDistrict/include/top') ?>
-<?= $this->include('FirstDistrict/include/meta') ?>
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">

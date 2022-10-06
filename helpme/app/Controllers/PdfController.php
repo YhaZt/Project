@@ -18,9 +18,9 @@ class PdfController extends BaseController
 		$mpdf->SetHTMLHeader('
 <div style="text-align: center; font-weight: bold;">
     <img src="/system_image/logo.jpg" width = "50" />
-		<h5 style="margin:0;">House of Representative</h5>
-		<h5 style="margin:0;">House of Representative</h5>
-		<h5 style="margin:0;">House of Representative</h5>
+		<h5 style="margin:0;">Republic of the Philippines</h5>
+		<h3 style="margin:0;">House of Representative</h5>
+		<h5 style="margin:0;">Quezon City, Metro Manila</h5>
 </div>');
 $mpdf->SetHTMLFooter('
 <table width="100%">

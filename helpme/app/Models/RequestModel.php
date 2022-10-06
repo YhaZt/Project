@@ -18,8 +18,6 @@ class RequestModel extends Model
       'amount',
       'status',
       'reason',
-      'created_at',
-      'updated_at'
     ];
 
 }

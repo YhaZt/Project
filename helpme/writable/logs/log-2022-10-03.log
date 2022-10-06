@@ -1,0 +1,7 @@
+CRITICAL - 2022-10-03 00:23:46 --> Use of undefined constant pending - assumed 'pending' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\Project\helpme\app\Controllers\RequestController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 103, Array)
+#1 C:\laragon\www\Project\helpme\system\CodeIgniter.php(832): App\Controllers\RequestController->FileStore()
+#2 C:\laragon\www\Project\helpme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RequestController))
+#3 C:\laragon\www\Project\helpme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Project\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

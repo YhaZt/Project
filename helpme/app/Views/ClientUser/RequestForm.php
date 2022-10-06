@@ -56,14 +56,30 @@
     </section>
 <br>
 <!-- compare date date difference -->
-<?php   ?>
+
+<?php
+
+$date1 = date("Y-m-d");
+$date2 = date("Y-m-d", $data['rupdated_at']);
+$diff = abs(strtotime($date2) - strtotime($date1));
+// echo $data['rupdated_at'];
+$years = floor($diff / (365*60*60*24));
+$months = floor(($diff - $years * 365*60*60*24) / (30*60*60*24));
+$days = floor(($diff - $years * 365*60*60*24 - $months*30*60*60*24)/ (60*60*24));
+
+ // printf($days);
+?>
 
     <div style="margin-right:20px;"class="container section">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3 class="text-center">Upload Client File Here</h3>
+                <?php
+               if($data){
+             if($days > 90){ ?>
                 <form action="<?= base_url('drop') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
                   <input type="hidden" name="name" value="<?=$name?>">
+                  <input type="hidden" name="id" value="<?=$id?>">
                   <input type="hidden" name="request" value="<?=$request?>">
                   <input type="hidden" name="phone_no" value="<?=$phone_no?>">
                   <input type="hidden" name="email" value="<?=$email?>">
@@ -71,6 +87,23 @@
                         <h3 class="text-center">Upload Multiple File By Click On Box</h3>
                     </div>
                 </form>
+              <?php }else{
+
+              }
+            }else{
+                ?>
+                <form action="<?= base_url('drop') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
+                  <input type="hidden" name="name" value="<?=$name?>">
+                  <input type="hidden" name="id" value="<?=$id?>">
+                  <input type="hidden" name="request" value="<?=$request?>">
+                  <input type="hidden" name="phone_no" value="<?=$phone_no?>">
+                  <input type="hidden" name="email" value="<?=$email?>">
+                    <div>
+                        <h3 class="text-center">Upload Multiple File By Click On Box</h3>
+                    </div>
+                </form>
+                <?php
+              }?>
             </div>
         </div>
     </div>
