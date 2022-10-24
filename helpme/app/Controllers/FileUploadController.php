@@ -20,12 +20,12 @@ class FileUploadController extends BaseController
 
 	public function FileUploadStore()
     {
-        $image = $this->request->getFile('file');
 				$id = $this->request->getVar('id');
 				$town = $this->request->getVar('town');
 				$brgy = $this->request->getVar('brgy');
 				$hos = $this->request->getVar('hos');
 				$diag = $this->request->getVar('diag');
+		    $image = $this->request->getFile('file');
         $imageName = $image->getName();
 				$path = 'ClientFiles/'.$hos.'/'.$town.'/'.$brgy.'/'.$diag.'/'.$id.'/';
 				$directory = $path;

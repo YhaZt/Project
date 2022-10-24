@@ -39,162 +39,207 @@
             <div class="col-8">
 
               <!-- /.card -->
-
-              <div class="card">
-                <div class="card-header">
-                  <h3 class="card-title">Add Client</h3><a href="clientlist" style=" margin-left: 100px;" class="btn btn-info pull-right">Client List</a>
-                </div>
-                <!-- /.card-header -->
-                <div class="card-body">
-                  <?php if (isset($validation)) : ?>
-                    <div class="col-12">
-                      <div class="alert alert-danger" role="alert">
-                        <?= $validation->listErrors() ?>
-                      </div>
-                    </div>
-                  <?php endif; ?>
-
-                  <form method="post"  action="ClientController/store">
-                    <div class="form-group">
-                      <label for="Representative">Representative Fullname</label>
-                      <input type="text" class="form-control" name="Rep" placeholder="Reperesentative Fullname">
-                    </div>
-                    <div class="form-group">
-                      <label for="FirstName">Client First Name</label>
-                      <input type="text" class="form-control" name="FName" placeholder="First Nane">
-                    </div>
-                    <div class="form-group">
-                      <label for="MiddleName">Client Middle Name</label>
-                      <input type="text" class="form-control" name="MName"placeholder="Middle Name" >
-                    </div>
-                    <div class="form-group">
-                      <label for="LastName">Client Last Name</label>
-                      <input type="text" class="form-control" name="LName" placeholder="Last Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="Birthday">Birthday</label>
-                      <input type="text" class="form-control" name="DOB" id="dob" placeholder="Birthday" autocomplete="off">
-                    </div>
-                    <div class="form-group">
-                      <label for="Age">Age</label>
-                      <input type="text" class="form-control" id="age"name="Age" placeholder="Age" readonly>
-
-                    </div>
-                    <div class="form-group">
-                      <label for="Gender">Gender</label>
-                      <select name = "Gender" class="form-control" >
-                        <option  value="">Gender</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="MobileNumber">Mobile Number</label>
-                      <input type="text" class="form-control" name="MNumber"placeholder="Mobile Number" >
-                    </div>
-                    <div class="form-group">
-                      <label for="Occupation">Occupation</label>
-                      <input type="text" class="form-control" name="Occupation"placeholder="Occupation" >
-                    </div>
-                    <div class="form-group">
-                      <label for="province">Province</label>
-                      <select name="Province"  class="form-control" >
-                        <option value="Oriental Mindoro" selected>Oriental Mindoro</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="town">Town</label>
-                      <select name="municipality" id="municipality" class="form-control" required>
-                        <option value="">Select Municipality</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="barangay">Barangay</label>
-                      <select name="barangay" id="barangay" class="form-control barangay" required>
-                        <option value="">Select Barangay</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="sitio">Sitio</label>
-                      <select name="sitio" id="sitio"  class="form-control sitio" >
-                        <option value="">Select Sitio</option>
-                      </select>
-
-                    </div>
-                    <div class="form-group">
-                      <label for="hono">House Number</label>
-                      <input type="text" class="form-control" name="HouseNumber" placeholder="House Number">
-                    </div>
-                    <div class="form-group">
-                      <label for="Diagnosis">Diagnosis</label>
-                      <input type="text" class="form-control" name="Diag" placeholder="Diagnosis">
-                    </div>
-                    <div class="form-group">
-                      <label for="Hospital">Hospital</label>
-                      <select name = "Hos" class="form-control" >
-                        <option  value="">Hospital</option>
-                        <option value="MAES">MAES</option>
-                        <option value="MMG">MMG</option>
-                        <option value="OMPH">OMPH</option>
-                        <option value="SMV">SMV</option>
-                        <option value="Luna Goco">Luna Goco</option>
-                      </select>
-                    </div>
-                    <div class="form-group">
-                      <label for="Purpose">Purpose</label>
-                      <select name = "Purpose" class="form-control" >
-                        <option  value="">Purpose</option>
-                        <option value="Hospital Bill">Hospital Bill</option>
-                        <option value="Burial">Funeral Assistance</option>
-                        <option value="Laboratory">Laboratory</option>
-                        <option value="Medical">Medical</option>
-                        <option value="Transportation">Transportation</option>
-                      </select>
-                    </div>
-
-                    <button type="submit" name="submit" class="btn btn-success">Submit</button>
-                  </form>
-
-                </div>
-              </div>
+              <!-- add sitio din dito -->
+              <!-- <div style="float: right; "class="card">
+              <div class="card-body">
+              <?php if (isset($validation)) : ?>
+              <div class="col-12">
+              <div class="alert alert-danger" role="alert">
+              <?= $validation->listErrors() ?>
             </div>
           </div>
-        </div>
+        <?php endif; ?>
 
-      </section>
+        <form method="post"  action="UtilityController/store">
+
+        <div class="form-group">
+        <label for="province">Province</label>
+        <select name="Province"  class="form-control" >
+        <option value="Oriental Mindoro" selected>Oriental Mindoro</option>
+      </select>
     </div>
+    <div class="form-group">
+    <label for="town">Town</label>
+    <select name="municipality" id="municipality" class="form-control" required>
+    <option value="">Select Municipality</option>
+  </select>
+</div>
+<div class="form-group">
+<label for="barangay">Barangay</label>
+<select name="barangay" id="barangay" class="form-control" required>
+<option value="">Select Barangay</option>
+</select>
+</div>
+<div class="form-group">
+<label for="sitio">Sitio</label>
+<input type="text" class="form-control" name="Sitio" placeholder="Sitio">
 
-  </body>
+</div>
+
+<button type="submit" name="submit" class="btn btn-success">Submit</button>
+</form>
+</div>
+</div> -->
+<!-- end add sitio -->
+
+<div class="card">
+  <div class="card-header">
+    <h3 class="card-title">Add Client</h3><a href="clientlist" style=" margin-left: 100px;" class="btn btn-info pull-right">Client List</a>
+  </div>
+  <!-- /.card-header -->
+  <div class="card-body">
+    <?php if (isset($validation)) : ?>
+      <div class="col-12">
+        <div class="alert alert-danger" role="alert">
+          <?= $validation->listErrors() ?>
+        </div>
+      </div>
+    <?php endif; ?>
+
+    <form method="post"  action="ClientController/store">
+      <div class="form-group">
+        <label for="Representative">Representative Fullname</label>
+        <input type="text" class="form-control" name="Rep" placeholder="Reperesentative Fullname">
+      </div>
+      <div class="form-group">
+        <label for="FirstName">Client First Name</label>
+        <input type="text" class="form-control" name="FName" placeholder="First Nane">
+      </div>
+      <div class="form-group">
+        <label for="MiddleName">Client Middle Name</label>
+        <input type="text" class="form-control" name="MName"placeholder="Middle Name" >
+      </div>
+      <div class="form-group">
+        <label for="LastName">Client Last Name</label>
+        <input type="text" class="form-control" name="LName" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <label for="Birthday">Birthday</label>
+        <input type="text" class="form-control" name="DOB" id="dob" placeholder="Birthday" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="Age">Age</label>
+        <input type="text" class="form-control" id="age"name="Age" placeholder="Age" readonly>
+
+      </div>
+      <div class="form-group">
+        <label for="Gender">Gender</label>
+        <select name = "Gender" class="form-control" >
+          <option  value="">Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="MobileNumber">Mobile Number</label>
+        <input type="text" class="form-control" name="MNumber"placeholder="Mobile Number" >
+      </div>
+      <div class="form-group">
+        <label for="Occupation">Occupation</label>
+        <input type="text" class="form-control" name="Occupation"placeholder="Occupation" >
+      </div>
+      <div class="form-group">
+        <label for="province">Province</label>
+        <select name="Province"  class="form-control" >
+          <option value="Oriental Mindoro" selected>Oriental Mindoro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="town">Town</label>
+        <select name="municipality" id="municipality" class="form-control" required>
+          <option value="">Select Municipality</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="barangay">Barangay</label>
+        <select name="barangay" id="barangay" class="form-control barangay" required>
+          <option value="">Select Barangay</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="sitio">Sitio</label>
+        <select name="sitio" id="sitio"  class="form-control sitio" >
+          <option value="">Select Sitio</option>
+        </select>
+
+
+      </div>
+      <div class="form-group">
+        <label for="hono">House Number</label>
+        <input type="text" class="form-control" name="HouseNumber" placeholder="House Number">
+      </div>
+      <div class="form-group">
+        <label for="Diagnosis">Diagnosis</label>
+        <input type="text" class="form-control" name="Diag" placeholder="Diagnosis">
+      </div>
+      <div class="form-group">
+        <label for="Hospital">Hospital</label>
+        <select name = "Hos" class="form-control" >
+          <option  value="">Hospital</option>
+          <option value="MAES">MAES</option>
+          <option value="MMG">MMG</option>
+          <option value="OMPH">OMPH</option>
+          <option value="SMV">SMV</option>
+          <option value="Luna Goco">Luna Goco</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="Purpose">Purpose</label>
+        <select name = "Purpose" class="form-control" >
+          <option  value="">Purpose</option>
+          <option value="Hospital Bill">Hospital Bill</option>
+          <option value="Burial">Funeral Assistance</option>
+          <option value="Laboratory">Laboratory</option>
+          <option value="Medical">Medical</option>
+          <option value="Transportation">Transportation</option>
+        </select>
+      </div>
+
+      <button type="submit" name="submit" class="btn btn-success">Submit</button>
+    </form>
+
+  </div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+</section>
+</div>
+
+</body>
 
 
 
-  <?= $this->include('FirstDistrict/include/end') ?>
+<?= $this->include('FirstDistrict/include/end') ?>
 
-  <script>
-  $(document).ready(function(){
-    $("#barangay").click(function(){
-      var brgy = $("#barangay").val();
-      console.log(brgy);
-      $.ajax({
-        type: 'POST',
-        url: '<?=base_url()?>/sitio',
-        data:{
-          brgy: brgy
-        },
-        success:function(rp){
+<script>
+$(document).ready(function(){
+  $("#barangay").click(function(){
+    var brgy = $("#barangay").val();
+    console.log(brgy);
+    $.ajax({
+      type: 'POST',
+      url: '<?=base_url()?>/sitio',
+      data:{
+        brgy: brgy
+      },
+      success:function(rp){
+        $('.sitio')
+        .find('option')
+        .remove()
+        .end()
+        .append('<option value="">Select Sitio</option>')
+        .val('');
+        var obj = jQuery.parseJSON(rp);
+        $.each(obj, function(key, value) {
           $('.sitio')
-          .find('option')
-          .remove()
-          .end()
-          .append('<option value="">Select Sitio</option>')
-          .val('');
-          var obj = jQuery.parseJSON(rp);
-          $.each(obj, function(key, value) {
-            $('.sitio')
-            .append($('<option></option>').val(value.sitio).text(value.sitio));
-          });
-        }
-      });
+          .append($('<option></option>').val(value.sitio).text(value.sitio));
+        });
+      }
     });
-  })
-  </script>
+  });
+})
+</script>

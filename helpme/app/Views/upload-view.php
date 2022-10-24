@@ -52,7 +52,7 @@
 
         Dropzone.options.imageUpload = {
     maxFilesize: 10, // Mb
-      acceptedFiles: ".jpeg,.jpg,.png,.gif,.pdf,.docx",
+      acceptedFiles: ".pdf,",
     init: function () {
         // Set up any event handlers
         this.on('complete', function () {

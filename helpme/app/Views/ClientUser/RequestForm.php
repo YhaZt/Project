@@ -74,7 +74,17 @@ $days = floor(($diff - $years * 365*60*60*24 - $months*30*60*60*24)/ (60*60*24))
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3 class="text-center">Upload Client File Here</h3>
-                <?php
+                <form action="<?= base_url('drop') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
+                  <input type="hidden" name="name" value="<?=$name?>">
+                  <input type="hidden" name="id" value="<?=$id?>">
+                  <input type="hidden" name="request" value="<?=$request?>">
+                  <input type="hidden" name="phone_no" value="<?=$phone_no?>">
+                  <input type="hidden" name="email" value="<?=$email?>">
+                    <div>
+                        <h3 class="text-center">Upload Multiple File By Click On Box</h3>
+                    </div>
+                </form>
+                <!-- <?php
                if($data){
              if($days > 90){ ?>
                 <form action="<?= base_url('drop') ?>" method="POST" enctype="multipart/form-data" class="dropzone" id='image-upload'>
@@ -103,7 +113,7 @@ $days = floor(($diff - $years * 365*60*60*24 - $months*30*60*60*24)/ (60*60*24))
                     </div>
                 </form>
                 <?php
-              }?>
+              }?> -->
             </div>
         </div>
     </div>
